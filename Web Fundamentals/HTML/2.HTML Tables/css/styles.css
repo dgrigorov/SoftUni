@@ -1,0 +1,89 @@
+body {
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	color: #000;
+	margin: 0;
+}
+
+table {
+	text-align: left;
+}
+
+	table tr td {
+		font-weight: normal;
+	}
+
+span.bold {
+	font-weight: 700;
+	display: block;
+}
+
+/*========
+Nested Tables Homework
+=======*/
+table.nested-table {
+	border-spacing: 3px;
+}
+
+table.nested-table, 
+table.nested-table tr, 
+table.nested-table td {
+    border: 1px solid black;
+}
+
+table.nested-table td {
+    padding: 15px;
+}
+
+table.nested-table {
+    width: 380px;
+}
+
+	table.nested-table tbody tr td h1 {
+		font-size: 5em;
+		margin: 0;
+	}
+
+/*========
+SoftUni Life Homework
+=======*/
+table.softuni-life tr th,
+table.softuni-life tr td {
+	padding: 20px;
+	font-size: 25px;
+	height: 61px;
+}
+
+table.nested {
+	border-spacing: 3px;
+}
+
+table.nested, 
+table.nested tr, 
+table.nested td {
+    border: 1px solid black;
+}
+
+/*========
+SoftUni Life Homework
+=======*/
+table.softuni-life-btn tr th,
+table.softuni-life-btn tr td {
+	padding: 2px;
+	min-height: 61px;
+}
+
+table.softuni-life-btn button {
+	font-size: 30px;
+	padding: 20px;
+	width: 100%;
+	color: blue;
+}
+
+table.softuni-life-btn button:hover {
+	cursor: pointer;
+}
+
+table.softuni-life-btn tr td.beer button {
+	vertical-align:middle; 
+	text-align:right;
+}

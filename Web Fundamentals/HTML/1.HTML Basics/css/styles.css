@@ -1,0 +1,99 @@
+body {
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	margin: 0;
+}
+
+header,
+article {
+	padding: 0 30px;
+}
+
+header h1 {
+	color: #f3be60;
+}
+
+.container {
+	width: 1278px;
+	min-height: 640px;
+	margin: 0 auto;
+	padding: 1px;
+	background: url(../img/slide-bg.jpg) no-repeat 50% 0;
+}
+
+.wrapper {
+	background-color: #add8e6;
+	padding: 10px;
+	color: #000;
+}
+
+.wrapper img[title="Doge"] {
+	border: 1px solid #000;
+}
+
+xmp {
+	display: inline-block;
+	font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.examples xmp {
+	display: block;
+	margin: 0;
+	font-size: 20px
+}
+
+.list .list-square {
+	width: 12px;
+	height: 12px;
+	background-color: #f2b254;
+	display: inline-block;
+	margin: 0 10px 2px 0;
+}
+
+.list h2 {
+	margin-bottom: 0;
+}
+
+	.list h2 > xmp {
+		color: #f3cd60;
+	}
+
+.list .examples {
+	margin-left: 35px;
+	padding: 0 15px;
+	background-color: rgba(32, 32, 32, 0.85);
+	color: #fbeec9;
+	border-radius: 2px;
+	border: 1px solid #c7bfac;
+}
+
+	.list .examples p:nth-child(2) {
+		text-indent: 20px;
+	}
+
+	.list.sections .examples p {
+		margin: 0;
+		font-size: 20px
+	}
+
+ul.info {
+	padding-left: 0;
+}
+
+	ul.info li {
+		list-style-type: none;
+	}
+		ul.info li span.bold {
+			font-weight: 900;
+		}
+
+dl > dt {
+	font-style: italic;
+}
+
+footer .pull-right {
+	float: right;
+	position: relative;
+	right: 33px;
+	top: 15px;
+}

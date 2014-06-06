@@ -1,0 +1,105 @@
+p, ul, li, input {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family:Calibri;
+    color:white;
+    font-weight:bold;
+    margin: 0;
+}
+
+header {
+    background: #234465;
+    margin: 0!important;
+    height: 110px;
+}
+
+    table tr td {
+        text-align:right;
+        vertical-align:middle;
+        height:32px;
+    }
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+
+/*navigation*/
+
+table tr td nav ul {
+    text-align:right;
+}
+
+    table tr td nav ul li {
+        list-style-type:none;
+        display:inline-block;
+        margin-left:20px;
+        vertical-align:middle;
+    }
+
+        table tr td nav ul li a {
+            text-decoration:none;
+            color:white;
+            padding:8px;
+            text-transform: uppercase;
+        }
+
+        table tr td a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a.user {
+            padding: 5px;
+        }
+
+        table tr td nav ul li:hover > a,
+        a.user:hover {
+            text-decoration: none;
+            background-color: #4ca0db;
+            border-radius:5px;
+        }
+
+    /*search field*/
+    table tr:first-child td:last-child {
+        width:200px;
+    }
+
+
+    /*logo*/
+    table tr:first-child td:first-child {
+        text-align:left;
+        width:250px;
+    }
+
+    /*search field*/
+    table tr td form input:first-child {
+        height:32px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+        margin-right: -4px;
+        padding-left: 15px;
+        outline: 0;
+    }
+
+    #search {
+        vertical-align:top;
+        border:none;
+    }
+
+.notifications {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../img/notificationsIcon.png) no-repeat;
+    margin: 0;
+    vertical-align: middle;
+}
+
+a > .unread-notifications-count {
+    text-decoration: none;
+}
