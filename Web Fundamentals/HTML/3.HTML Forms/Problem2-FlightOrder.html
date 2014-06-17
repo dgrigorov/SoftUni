@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Fundamentals Soft Uni - HTML Forms (Flight Order)</title>
+	<link rel="stylesheet" href="css/02-styles.css" type="text/css">
+</head>
+<body>
+	<div class="form-wrapper">
+		<div class="container">
+			<div class="col-md-12">
+				<h1 class="italic">Flight order</h1>
+
+				<form action="" method="post">
+
+					<div class="span6">
+
+						<div class="formCity">
+							<label for="fromCity" class="italic">From</label>
+							<select name="fromCity" id="fromCity" class="form-control">
+								<option value="Sofia">Sofia</option>
+								<option value="Plovdiv">Plovdiv</option>
+								<option value="Varna">Varna</option>
+								<option value="Bourgas">Bourgas</option>
+								<option value="Veliko Tarnovo">Veliko Tarnovo</option>
+							</select>
+							<input type="checkbox" id="hidden">
+						</div>
+
+						<div class="departureDate">
+							<label for="dDate" class="italic">Departure Date</label>
+							<input type="date" id="dDate" class="form-control" value="09.06.2014">
+						</div>
+
+						<div class="returnDate">
+							<label for="rDate" class="italic">Return Date</label>
+							<input type="date" id="rDate" class="form-control" value="09.06.2014">
+						</div>
+
+						<div class="numChild">
+
+							<div class="span1">
+								<label for="numChild" class="italic">12+</label>
+								<select name="numChild" id="numChild" class="form-control">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</div>
+
+							<div class="span1">
+								<label for="numChild2" class="italic">2-12</label>
+								<select name="numChild2" id="numChild2" class="form-control">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</div>
+							
+							<div class="span1">
+								<label for="numChild3" class="italic">0-2</label>
+								<select name="numChild3" id="numChild3" class="form-control">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="span6">
+
+						<div class="toCity">
+							<label for="toCity" class="italic">To</label>
+							<select name="toCity" id="toCity" class="form-control">
+								<option value="Sofia">Sofia</option>
+								<option value="Plovdiv">Plovdiv</option>
+								<option value="Varna">Varna</option>
+								<option value="Bourgas">Bourgas</option>
+								<option value="Veliko Tarnovo">Veliko Tarnovo</option>
+							</select>
+							<input type="checkbox" id="prefer-directs">
+							<label for="prefer-directs" class="prefer">Prefer directs</label>
+						</div>
+
+						<div class="timeInterval">
+							<label for="timeInt" class="italic">Time Interval</label>
+							<input type="time" id="timeInt" class="form-control" value="00:20">
+							<input type="time" id="timeInt2" class="form-control" value="05:00">
+						</div>
+
+						<div class="timeInterval2">
+							<label for="timeInt" class="italic">Time Interval</label>
+							<input type="time" id="timeInt3" class="form-control" value="16:00">
+							<input type="time" id="timeInt4" class="form-control" value="22:00">
+						</div>
+
+						<div class="chooseClass">
+							<label for="chClass" class="italic">Choose class</label>
+							<select name="chClass" id="chClass" class="form-control">
+								<option value="1">Economy</option>
+								<option value="2">Ergonomy</option>
+								<option value="3">Informatic</option>
+							</select>
+						</div>
+
+						<button type="button" name="search">Search</button>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

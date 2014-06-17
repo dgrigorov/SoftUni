@@ -1,0 +1,195 @@
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+label, 
+input, 
+button, 
+select, 
+textarea {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+label {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	color: #2e425a;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#products-container h1 {
+	font-family: "DaxlineProBold","Ubuntu","Lucida","Trebuchet MS",sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 70px;
+	color: #2e425a;
+}
+
+#products-container ul.products {
+	width: 630px;
+	margin-top: 5px;
+}
+
+	#products-container ul.products li  {
+		float: left;
+		background-color: #fff;
+		background-image: none;
+		border: solid 1px #d9eefa;
+		width: 193px;
+		height: 200px;
+		margin: 0 -8px 10px 20px;
+		padding: 7px 0 7px 0;
+		background: none;
+		position: relative;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	#products-container ul.products h2 {
+		font-size: 15px;
+		font-weight: bold;
+		position: relative;
+		z-index: 5;
+		margin: 0;
+		padding: 0px 7px 5px;
+		line-height: 1;
+	}
+
+	#products-container ul.products .additional {
+		font-size: 12px;
+		font-weight: normal;
+		padding-bottom: 2px;
+		position: relative;
+		z-index: 5;
+		margin: 0;
+		padding: 0px 7px 5px;
+		line-height: 1.4;
+	}
+
+	#products-container ul.products a {
+		display: block;
+	}
+
+	#products-container ul.products img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		max-width: none;
+		width: auto;
+		height: auto;
+		margin: -60px 0 0 -80px;
+		text-align: center;
+	}
+
+	#products-container ul.products .price {
+		text-align: center;
+		font-weight: bold;
+		font-size: 1em;
+		position: absolute;
+		bottom: 1px;
+		right: 0px;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+		#products-container ul.products .price .price-container {
+			display: block;
+			width: auto;
+			height: auto;
+			overflow: hidden;
+			clear: both;
+			width: auto;
+			height: 30px;
+			margin: 0 0 -1px 1px;
+		}
+
+		#products-container ul.products .price strong {
+			font-size: 15px;
+			float: none;
+			display: block;
+			width: auto;
+			height: 32px;
+			line-height: 32px;
+			padding: 0 10px;
+			border-top-left-radius: 5px;
+			-moz-border-radius-topleft: 5px;
+			-webkit-border-top-left-radius: 5px;
+			text-align: center;
+			background-color: #2c425a;
+			color: #fff;
+		}
+
+		#products-container ul.products .price .label {
+			display: none;
+		}
+
+		#products-container ul.products .price .vat-info {
+			font-size: 15px;
+			font-weight: normal;
+		}
+
+.slider-filter .dynamic {
+	display: block;
+	font-size: 12px;
+	position: relative;
+}
+
+#filters {
+	background-color: #f7fcff;
+	border: 1px solid #d8eef9;
+	width: 250px;
+	height: auto;
+	margin: -47px 0;
+	overflow: hidden;
+	position: relative;
+	left: 30px;
+}
+
+	#filters .slider-filter {
+		color: #2e425a;
+		margin: 0 9px 0 7px;
+	}
+
+		#filters .slider-filter .dynamic .min {
+			float: left;
+		}
+
+		#filters .slider-filter .dynamic .max {
+			text-align: right;
+		}
+
+		#filters .slider-filter h3 {
+			margin: 10px 0 0 0;
+			text-align: center;
+		}
+
+			#filters .slider-filter h3 span {
+				position: relative;
+				top: -10px;
+				padding: 0 3px;
+				background: #f7fcff;
+				text-align: center;
+				font-size: 15px;
+				font-weight: normal;
+			}
+
+input[type="range"] {
+	width: 100%;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Fundamentals Soft Uni - HTML Forms (Flight Order)</title>
+	<link rel="stylesheet" href="css/04-styles.css" type="text/css">
+</head>
+<body>
+	<div class="form-wrapper">
+		<div class="container">
+			<header>
+				<h1>fakebook<sub>&reg;</sub></h1>
+				<h2>Registration</h2>
+				<h4>It is safe and it will always be!</h4>
+			</header>
+
+			<form action="" method="post" class="span5">
+				<fieldset>
+					<legend>None-Important Information</legend>
+					<p>
+						<input type="text" name="fName" placeholder="First Name">
+						<input type="text" name="lName" placeholder="Last Name">
+					</p>
+					<p>
+						<input type="email" name="email" placeholder="Your Email"> <!-- type="email" not supported by Safari -->
+						<input type="text" name="tel" placeholder="Phone Number"> <!-- type="tel" not supported by any browser -->
+					</p>
+					<p>
+						<input type="password" name="password" placeholder="Your Password">
+						<input type="url" name="website" placeholder="Your Website"> <!-- type="url" not supported by Safari -->
+					</p>
+					<p>
+						<label for="bDay">Birthday:</label>
+						<input type="datetime-local" name="bdaytime"> <!-- type="datetime-local" not supported by IE and FF -->
+					</p>
+					<p class="sex">
+						<input type="radio" name="sex" value="male" id="male">
+						<label for="male">Male</label>
+						<input type="radio" name="sex" value="female" id="female">
+						<label for="female">Female</label>
+						<input type="radio" name="sex" value="other" id="other">
+						<label for="other">Other</label>
+					</p>
+				</fieldset>
+				<input type="reset" value="Clear Form">
+			</form>
+
+			<form action="" method="get" class="span6">
+				<fieldset>
+					<legend>Important Information *required</legend>
+					<p>
+						<select name="country" id="country">
+							<option value="" disabled="disabled" selected="selected">Country</option>
+							<option value="bg">Bulgaria</option>
+							<option value="fr">France</option>
+							<option value="it">Italy</option>
+							<option value="sp">Spain</option>
+						</select>
+						<input type="text" name="village" placeholder="Village" requied="required">
+						<input type="text" name="district" placeholder="District" requied="required">
+					</p>
+					<p>
+						<input type="text" name="street" placeholder="Street" requied="required">
+						<input type="text" class="xs" name="number" placeholder="Nr" requied="required">
+						<input type="text" class="xs" name="floor" placeholder="Floor" requied="required">
+						<input type="text" class="xs" name="ap-num" placeholder="Ap Nr" requied="required">
+					</p>
+					<p>
+						<label for="dColor">Door Color</label>
+						<input type="color" name="dColor" placeholder="Your Password" requied="required">
+						<input type="text" name="water-meter-nr" placeholder="Water Meter Nr" requied="required">
+						<select name="country" id="country">
+							<option value="" disabled="disabled" selected="selected">Aunt Panties's Size</option>
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+						</select>
+					</p>
+					<p>
+						<label for="more-info">More Personal Information</label>
+						<textarea name="more-info" id="more-info" cols="65" rows="3" placeholder="Give Us More Information!!!"></textarea>
+					</p>
+				</fieldset>
+				<input type="submit" value="Register">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

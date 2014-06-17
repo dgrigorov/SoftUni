@@ -1,0 +1,114 @@
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+label, 
+input, 
+button, 
+select, 
+textarea {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+label {
+	display: block;
+}
+
+.form-wrapper {
+	background-color: #3b5997;
+	margin-top: -10px;
+	padding: 1px;
+	color: #fff;
+	min-height: 700px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.span5 {
+	width: 37%;
+	float: left;
+}
+
+.span6 {
+	width: 60%;
+	float: left;
+}
+
+header,
+form fieldset legend {
+	text-align: center;
+}
+
+	header h1 {
+		font-size: 5em;
+		margin-bottom: 0;
+	}
+
+		header h1 sub {
+			font-size: 0.3em;
+		}
+
+form fieldset {
+	border-radius: 10px;
+}
+
+	form fieldset input {
+		border-radius: 5px;
+	}
+
+	form fieldset select,
+	textarea {
+		padding: 5px;
+		border-radius: 5px;
+	}
+
+	form p {
+		margin: 4px 0;
+	}
+
+form.span6 {
+	margin-left: 25px;
+}
+
+p.sex {
+	padding-bottom: 51px;
+}
+
+	p.sex label {
+		display: inline-block;
+	}
+
+input[type="reset"],
+input[type="submit"] {
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	color: #536da2;
+	background-color: #ddd;
+	font-size: 18px;
+	margin-top: 15px;
+	outline: 0;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+form fieldset select:hover {
+	cursor: pointer;
+}
+
+input[type="color"],
+select#country {
+	width: 27%;
+}
+
+input.xs {
+	width: 15%;
+}
