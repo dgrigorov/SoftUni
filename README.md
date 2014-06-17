@@ -32,7 +32,7 @@
 <ul>
 <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/1.HTML%20Basics">HTML Basics</a></li>
 <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/2.HTML%20Tables">HTML Tables</a></li>
-<li>HTML Forms and Controls</li>
+<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/3.HTML%20Forms">HTML Forms and Controls</a></li>
 <li>HTML Semantic, Frames etc.</li>
 </ul>
 
