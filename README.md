@@ -14,7 +14,7 @@
 <li class="html"><a href="#html">Web Fundamentals</a>
   <ul>
   <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML">HTML</a></li>
-  <li><a href="#css">CSS</a></li>
+  <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS">CSS</a></li>
   </ul>
 </li>
 <li>JavaScript Basics</li>
@@ -33,7 +33,7 @@
 <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/1.HTML%20Basics">HTML Basics</a></li>
 <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/2.HTML%20Tables">HTML Tables</a></li>
 <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/3.HTML%20Forms">HTML Forms and Controls</a></li>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/4.HTML%20Semantic">HTML Semantic, Frames etc.</a></li>
+<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/4.HTML%20Semantic">HTML Semantic, Frames etc. (unfinished Problem 6.Barbies's Twitter)</a></li>
 </ul>
 
 <hr />
@@ -43,7 +43,7 @@
 <p>The HTML course structure for each homework is as follows:</p>
 
 <ul>
-<li>CSS Overview</li>
+<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/1.CSS%20Overview">CSS Overview</a></li>
 <li>CSS Presentation's tags</li>
 <li>CSS Position's tags</li>
 <li>CSS Transforms. Adaptive design</li>
