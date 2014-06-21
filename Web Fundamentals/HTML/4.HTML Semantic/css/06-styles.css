@@ -1,0 +1,536 @@
+@font-face {
+	font-family: "rosettaicons";
+	src: url(../fonts/rosetta-icons-Regular.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #4183c4;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.clearfix:before, 
+.clearfix:after, 
+.control-group:before, 
+.control-group:after, 
+.stream-item>div:before, 
+.stream-item>div:after, 
+.module:after, .module:before, 
+.follow-card header:after, 
+.follow-card header:before, 
+.follow-bar:after, 
+.follow-bar:before, 
+.search-header:after, 
+.search-header:before, 
+.tweet-form:after, 
+.tweet-form:before, 
+.modal-footer:after, 
+.modal-footer:before, 
+.local-trends-breadcrumb:after, 
+.local-trends-breadcrumb:before, 
+.input-prepend .add-on, 
+.input-append .add-on, 
+.wrapper:after, 
+.wrapper:before, 
+.expanded-content:before, 
+.expanded-content:after, 
+.stream-item:before, 
+.stream-item:after {
+	content: " ";
+	display: table;
+}
+
+input, 
+textarea, 
+div[contenteditable="true"], 
+.t1-select {
+	display: inline-block;
+	width: 210px;
+	padding: 4px;
+	margin: 0;
+	outline: 0;
+	background-color: #fff;
+	border: 1px solid #e1e8ed;
+	border-radius: 3px;
+}
+
+.container {
+	position: relative;
+	width: 890px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 auto;
+	min-height: 0;
+	padding: 56px 23px 15px;
+	position: relative;
+	width: 890px;
+}
+
+/*=======================
+TOP BAR
+=======================*/
+.global-nav {
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	height: 46px;
+	position: relative;
+	width: 100%;
+	background: #fff;
+	padding-top: 5px;
+}
+
+.global-nav .container {
+	text-align: center;
+	max-width: 1190px;
+	text-align: center;
+	width: auto;
+}
+
+.bird-topbar-etched {
+	color: #55acee;
+	font-size: 21px;
+	margin-top: 5px;
+	margin-left: -24px;
+	display: inline-block;
+	transition: all .25s ease-in-out;
+	background-position: -40px 0;
+	width: 24px;
+	height: 21px;
+	display: inline-block;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.global-nav [role=navigation], 
+.nav, 
+.nav ul > li {
+	float: left;
+	display: inline-block;
+}
+
+.nav {
+	margin-right: 12px;
+	margin-top: 0;
+	text-align: left;
+	display: inline-block;
+}
+
+.nav > li {
+	color: #66757f;
+}
+
+.nav > li .Icon {
+	float: left;
+	margin: 11px 0 0 10px;
+	width: 23px;
+	height: 23px;
+}
+
+.nav > li > a, 
+.nav > li > button {
+	color: inherit;
+	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	height: 46px;
+	line-height: 1;
+	padding: 0 14px 0 4px;
+}
+
+.nav > li > a .text {
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.nav li {
+	position: relative;
+	float: left;
+}
+
+.nav li a {
+	position: relative;
+	font-size: 12px;
+}
+
+.global-nav .container {
+	text-align: center;
+}
+
+#global-actions > li {
+	height: 46px;
+	overflow: hidden;
+}
+
+#global-actions > li:hover > a, 
+#global-actions > li.active > a {
+	height: 42px;
+}
+
+#global-actions .new:before {
+	content: "\25CF";
+	font-size: 14px;
+	left: 5px;
+	position: absolute;
+	top: 1px;
+	color: #0099CC;
+}
+
+#global-actions > li > a {
+	border-bottom-color: #0099CC;
+}
+
+#global-actions>li>a {
+	border-bottom: 4px solid #0084b4;
+	transition: all .15s ease-in-out;
+}
+
+.pull-right {
+	float: right;
+	text-align: left;
+	display: inline-block;
+}
+
+.global-nav [role=search] {
+	float: left;
+}
+
+.global-nav .form-search {
+	float: left;
+	height: 33px;
+	margin: 4px 15px 0 0;
+	font-size: 12px;
+	width: 221px;
+}
+
+.global-nav .form-search .search-input {
+	z-index: 2;
+	color: #fff;
+}
+
+.global-nav .search-input {
+	display: block;
+	width: 182px;
+	height: 21px;
+	padding: 5px 27px 6px 12px;
+	font-size: 12px;
+	line-height: 1;
+	color: #66757f;
+	background-color: #ccd6dd;
+	border: 0;
+	border-radius: 21px;
+	transition: all .2s ease-in-out;
+}
+
+.global-nav .search-input:focus {
+	color: #fff;
+	text-shadow: none;
+	background-color: #66757f;
+	box-shadow: none;
+}
+
+.global-nav .form-search .search-icon {
+	z-index: 3;
+}
+
+.global-nav .search-icon {
+	position: absolute;
+	top: 4px;
+	right: -3px;
+	display: block;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}
+
+.global-nav .search-icon .Icon {
+	color: #fff;
+	font-size: 13px;
+	height: auto;
+	margin: 3px 0 0 0;
+	padding: 0;
+	width: auto;
+	border: 0;
+}
+
+.global-nav .pull-right .right-actions {
+	margin: 0;
+}
+
+.global-nav .pull-right .nav {
+	position: relative;
+	z-index: 5;
+	margin: 0 -12px;
+}
+
+.nav.right-actions .Icon {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.global-nav .pull-right .Icon--cog {
+	margin-top: 11px;
+}
+
+.dm-nav {
+	float: left;
+	margin: 0;
+	height: 40px;
+	padding: 0;
+}
+
+.nav.right-actions > li > a, 
+.nav.right-actions > li > button {
+	height: 100%;
+	margin-right: 15px;
+	opacity: .6;
+	-ms-filter: "alpha(opacity=60)";
+	padding-right: 0;
+	transition: all .15s ease-in-out;
+	border: 0;
+	outline: 0;
+}
+
+.global-dm-nav {
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	overflow: visible;
+}
+
+#global-actions > li:hover > a, 
+#global-actions > li > a:focus, 
+.nav.right-actions > li > a:hover, 
+.nav.right-actions > li > button:hover, 
+.nav.right-actions > li > a:focus, 
+.nav.right-actions > li > button:focus,
+.tweet-btn:hover {
+	color: #0099CC;
+}
+
+#global-new-tweet-button {
+	color: #fff;
+	cursor: pointer;
+	height: 32px;
+	margin-top: 7px;
+	opacity: .7;
+	-ms-filter: "alpha(opacity=70)";
+	padding: 0 7px 0 8px;
+}
+
+.tweet-btn, .tweet-btn:focus {
+	background-color: #0099CC;
+	background: rgba(0,153,204,.8);
+}
+
+.tweet-btn {
+	background-color: #0084b4;
+	background: rgba(0,132,180,0.8);
+	border: 1px solid transparent;
+	color: #fff;
+	display: block;
+	padding: 9px 16px 8px 17px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#global-new-tweet-button .Icon {
+	font-size: 24px;
+	left: 0;
+	margin: 0;
+	opacity: 1;
+	-ms-filter: "alpha(opacity=100)";
+	position: relative;
+	top: -2px;
+}
+
+body.three-col .wrapper {
+	width: 1190px;
+}
+
+body.user-style-d_grigorov {
+	background-image: url(https://abs.twimg.com/images/themes/theme19/bg.gif);
+	background-position: left 40px;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-color: #FFF04D;
+}
+
+.AppContent {
+	padding: 56px 14px 15px;
+	position: relative;
+}
+
+.dashboard {
+	float: left;
+	width: 290px;
+}
+
+.module {
+	background-clip: padding-box;
+	border: 0;
+	border-radius: 6px;
+	line-height: 16px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.DashboardProfileCard {
+	border: 1px solid #e1e8ed;
+	background: #FFF;
+	border-radius: 6px;
+}
+
+.DashboardProfileCard-bg {
+	background-size: 100%;
+	border-bottom: 1px solid #e1e8ed;
+	height: 95px;
+	border-radius: 4px 4px 0 0;
+	background-position: 0 50%;
+	width: 100%;
+	padding: 0 1px;
+	margin-left: -1px;
+	margin-top: -1px;
+	background-image: url(https://pbs.twimg.com/profile_banners/723290834/1361410410/600x200);
+}
+
+.u-bgUserColor, 
+.u-bgUserColorHover:hover, 
+.u-bgUserColorHover:focus {
+	background-color: #0099CC !important;
+}
+
+.u-inlineBlock {
+	display: inline-block!important;
+	max-width: 100%;
+}
+
+.u-textTruncate {
+	max-width: 100%;
+	overflow: hidden!important;
+	text-overflow: ellipsis!important;
+	white-space: nowrap!important;
+	word-wrap: normal!important;
+}
+
+.u-textInheritColor {
+	color: inherit!important;
+}
+
+.u-dir[dir="ltr"] {
+	direction: ltr!important;
+	text-align: left!important;
+	unicode-bidi: embed;
+}
+
+.DashboardProfileCard-avatarLink {
+	background-color: #fff;
+	border-radius: 6px;
+	margin: -30px 0 0 8px;
+	padding: 3px;
+	vertical-align: bottom;
+}
+
+.DashboardProfileCard-userFields {
+	position: absolute;
+	top: 103px;
+	left: 90px;
+	width: 185px;
+}
+
+.DashboardProfileCard-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+/*=======================
+		FONT ICONS
+		=======================*/
+		.Icon {
+			background: transparent;
+			display: inline-block;
+			font-style: normal;
+			vertical-align: baseline;
+		}
+
+		.Icon--large {
+			font-size: 21px;
+			line-height: 1;
+		}
+
+		.Icon:before {
+			display: block;
+			font-family: "rosettaicons";
+			font-weight: normal;
+			font-style: normal;
+			text-align: center;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		.Icon--tweet:before {
+			content: "\f029";
+		}
+
+		.Icon--discover:before {
+			content: "\f052";
+		}
+
+		.Icon--home:before {
+			content: "\f053";
+		}
+
+		.Icon--dm:before {
+			content: "\f054";
+		}
+
+		.Icon--notifications:before {
+			content: "\f055";
+		}
+
+		.Icon--me:before {
+			content: "\f056";
+		}
+
+		.Icon--cog:before {
+			content: "\f059";
+		}
+
+		.Icon--bird:before {
+			content: "\f179";
+		}
+
+		.Icon--search:before {
+			content: "\f058";
+		}
+
+		.nav > li .Icon {
+			float: left;
+			margin: 3px 0 0 10px;
+			width: 23px;
+			height: 23px;
+		}

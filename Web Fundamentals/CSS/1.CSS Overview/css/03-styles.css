@@ -1,0 +1,76 @@
+.student-body {
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	border: 3px solid #000;
+	border-radius: 100%;
+	position: relative;
+}
+
+	.student-body .eyes {
+		width: 250px;
+		position: relative;
+		top: 100px;
+		left: 90px;
+	}
+
+		.student-body .eyes .eye {
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			background-color: #fff;
+			border: 3px solid #000;
+			position: absolute;
+		}
+
+		.student-body .eyes .eye.right {
+			left: 200px;
+		}
+
+		.student-body .eyes .eye .pupil {
+			width: 40px;
+			height: 40px;
+			background-color: #000;
+			border-radius: 100%;
+			position: absolute;
+		}
+
+		.student-body .eyes .eye.left .pupil {
+			top: 50px;
+			left: 50px;
+		}
+
+	.student-body .nose {
+		width: 70px;
+		height: 70px;
+		background-color: red;
+		border: 3px solid #000;
+		border-radius: 100%;
+		position: absolute;
+		top: 220px;
+		left: 200px;
+	}
+
+	.student-body .mouth {
+		width: 250px;
+		height: 100px;
+		background-color: #fff;
+		border: 3px solid #000;
+		border-radius: 70px;
+		position: relative;
+		top: 330px;
+		left: 115px;
+	}
+
+		.student-body .mouth .tooth {
+			width: 50px;
+			height: 60px;
+			background-color: #fff;
+			border: 3px solid #000;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			float: left;
+			position: relative;
+			left: 68px;
+			top: -3px;
+		}

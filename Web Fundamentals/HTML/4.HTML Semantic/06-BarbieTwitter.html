@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Fundamentals Soft Uni - HTML Semantic (Barbie's Twitter)</title>
+	<link rel="stylesheet" href="css/06-styles.css" type="text/css">
+</head>
+<body class="three-col user-style-d_grigorov">
+
+	<div class="global-nav">
+		<header>
+			<div class="container">
+
+				<h1 class="Icon Icon--bird bird-topbar-etched">
+					<span class="visuallyhidden">Twitter</span>
+				</h1>
+
+				<nav role="navigation">
+					<ul class="nav" id="global-actions">
+						<li class="home active new" id="global-nav-home">
+							<a href="" title="Home">
+								<span class="Icon Icon--home Icon--large"></span>
+								<span class="text">Home</span>
+							</a>
+						</li>
+						<li class="people notifications">
+							<a href="" title="Notifications">
+								<span class="Icon Icon--notifications Icon--large"></span>
+								<span class="text">Notifications</span>
+							</a>
+						</li>
+						<li class="topics">
+							<a href="" title="Discover">
+								<span class="Icon Icon--discover Icon--large"></span>
+								<span class="text">Discover</span>
+							</a>
+						</li>
+						<li class="profile">
+							<a href="" title="Me">
+								<span class="Icon Icon--me Icon--large"></span>
+								<span class="text">Me</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="pull-right">
+					<div role="search">
+						<form action="" class="form-search">
+							<input type="text" class="search-input" placeholder="Search">
+							<span class="search-icon js-search-action">
+								<button type="submit" class="Icon Icon--search nav-search" tabindex="-1">
+									<span class="visuallyhidden">
+										Search
+									</span>
+								</button>
+							</span>
+						</form>
+					</div>
+
+					<ul class="nav right-actions">
+						<li class="dm-nav">
+							<button type="submit" class="global-dm-nav" title="Direct message">
+								<span class="Icon Icon--dm Icon--large"></span>
+							</button>
+						</li>
+						<li>
+							<a href="" role="button" title="Settings and help">
+								<span class="Icon Icon--cog Icon--large"></span>
+							</a>
+						</li>
+						<li role="complementary" class="topbar-tweet-btn">
+							<button type="button"class="tweet-btn" id="global-new-tweet-button" title="Compose new Tweet">
+								<span class="Icon Icon--tweet Icon--large"></span>
+							</button>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</header>
+
+	</div>
+
+	<div id="page-container" class="AppContent wrapper wrapper-home white">
+
+		<div class="dashboard dashboard-left">
+
+			<a class="DashboardProfileCard-bg u-bgUserColor u-block" href="/" aria-hidden="true"></a>
+
+			<div class="DashboardProfileCard-content">
+				<a class="DashboardProfileCard-avatarLink u-inlineBlock" href="/d_grigorov" title="Daniel Grigorov" tabindex="-1" aria-hidden="true">
+					<img class="DashboardProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/2443699987/portrait_bigger.jpg" alt="">
+				</a>
+
+				<div class="DashboardProfileCard-userFields">
+					<div class="DashboardProfileCard-name u-textTruncate">
+						<a class="u-textInheritColor" href="/d_grigorov">Daniel Grigorov</a>
+					</div>
+					<span class="DashboardProfileCard-screenname u-inlineBlock u-dir" dir="ltr">
+						<a class="DashboardProfileCard-screennameLink u-linkComplex u-linkClean" href="/d_grigorov">@<span class="u-linkComplex-target">d_grigorov</span></a>
+					</span>
+				</div>
+
+				<div class="DashboardProfileCard-stats">
+					<ul class="DashboardProfileCard-statList Arrange Arrange--bottom Arrange--equal">
+						<li class="DashboardProfileCard-stat Arrange-sizeFit">
+							<a class="DashboardProfileCard-statLink u-textUserColor u-linkClean u-block" title="512 Tweets" href="/d_grigorov" data-element-term="tweet_stats">
+								<span class="DashboardProfileCard-statLabel u-block">Tweets</span>
+								<span class="DashboardProfileCard-statValue">512</span>
+							</a>
+						</li>
+						<li class="DashboardProfileCard-stat Arrange-sizeFit">
+							<a class="DashboardProfileCard-statLink u-textUserColor u-linkClean u-block" title="178 Following" href="/following" data-element-term="follower_stats">
+								<span class="DashboardProfileCard-statLabel u-block">Following</span>
+								<span class="DashboardProfileCard-statValue">178</span>
+							</a>
+						</li>
+						<li class="DashboardProfileCard-stat Arrange-sizeFit">
+							<a class="DashboardProfileCard-statLink u-textUserColor u-linkClean u-block" title="39 Followers" href="/followers" data-element-term="following_stats">
+								<span class="DashboardProfileCard-statLabel u-block">Followers</span>
+								<span class="DashboardProfileCard-statValue">39</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="home-tweet-box tweet-box component tweet-user DashboardProfileCard-tweetbox u-bgUserColorLightest u-borderUserColorLighter">
+					<form action="" class="t1-form tweet-form condensed" method="post">
+						<div class="tweet-content">
+							<input type="text" placeholder="Compose new Tweet...">
+						</div>
+					</form>
+				</div>
+
+	</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

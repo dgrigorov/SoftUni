@@ -1,0 +1,27 @@
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	background-color: #ffc0cb;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.span4 {
+	width: 300px;
+	float: left;
+}
+
+.span4.audio {
+	margin-left: -70px;
+}
+
+.span6 {
+	width: 360px;
+	float: left;
+	margin-left: 40px;
+}

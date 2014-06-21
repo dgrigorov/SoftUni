@@ -1,0 +1,47 @@
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header h1 {
+    background-color: black;
+    color: #F2C106;
+    width: 520px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px
+}
+section {
+    background-color: black;
+    width: 520px;
+    height: 220px;
+}
+html {
+    overflow: hidden;
+}
+iframe {
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid #F2C106;
+    margin: 20px -20px 20px 20px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 120%;
+    font-style: italic;
+}
+    ul li {
+        margin-top: 10px;
+    }
+    ul a {
+        text-decoration: none;
+        color: white
+    }

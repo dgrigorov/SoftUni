@@ -1,0 +1,11 @@
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	border:3px dotted red;
+}

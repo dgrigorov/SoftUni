@@ -1,0 +1,165 @@
+body {
+    font-family:Arial;
+    font-weight:bold;
+    margin: 0;
+    background: url(../img/colorful_dots_on_black.jpg) repeat;
+}
+
+body > header {
+	text-align: center;
+	color: yellow;
+	font-size: 50px;
+	font-weight: 900;
+
+	background: #ff0000; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ff0000 1%, #ff0000 30%, #008000 30%, #008000 65%, #0000ff 65%, #0000ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#ff0000), color-stop(30%,#ff0000), color-stop(30%,#008000), color-stop(65%,#008000), color-stop(65%,#0000ff), color-stop(100%,#0000ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ff0000 1%,#ff0000 30%,#008000 30%,#008000 65%,#0000ff 65%,#0000ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ff0000 1%,#ff0000 30%,#008000 30%,#008000 65%,#0000ff 65%,#0000ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ff0000 1%,#ff0000 30%,#008000 30%,#008000 65%,#0000ff 65%,#0000ff 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ff0000 1%,#ff0000 30%,#008000 30%,#008000 65%,#0000ff 65%,#0000ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 */
+}
+
+body > aside {
+	width: 250px;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	margin-top: 15px;
+	float: left;
+}
+
+	body > aside nav header {
+		font-size: 25px;
+		text-decoration: underline;
+	}
+
+	body > aside nav ul {
+		padding-left: 0;
+	}
+
+		body > aside nav ul li {
+			list-style-type: none;
+			margin-top: 10px;
+			background: url(../img/yes.png) no-repeat -2%;
+			padding: 10px 10px 10px 20px;
+			border-radius: 15px;
+		}
+
+			body > aside nav ul li a {
+				color: #000;
+			}
+
+			body > aside nav ul li a:visited {
+				color: gray
+			}
+
+		body > aside nav ul li:first-child:hover {
+			background-color: red;
+		}
+
+		body > aside nav ul li:nth-child(2):hover {
+			background-color: #ffa500;
+		}
+
+		body > aside nav ul li:nth-child(3):hover {
+			background-color: #ffff00;
+		}
+
+		body > aside nav ul li:nth-child(4):hover {
+			background-color: #008000;
+		}
+
+		body > aside nav ul li:nth-child(5):hover {
+			background-color: blue;
+		}
+		
+		body > aside nav ul li:nth-child(6):hover {
+			background-color: #800080;
+		}
+
+body section {
+	width: 80%;
+	float: left;
+	margin-left: 50px;
+}
+
+	body section article {
+		background-color: rgba(255, 255, 255, 0.8);
+		padding: 20px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		border-radius: 30px;
+	}
+
+		body section article header {
+			font-size: 30px;
+			font-weight: normal;
+			padding: 10px;
+			border-radius: 15px;
+			margin-bottom: 10px;
+		}
+
+		body section article header#webColors {
+			background-color: red;
+			color: #fff;
+		}
+
+		body section article header#webSafeColors {
+			background-color: #ffa500;
+		}
+
+		body section article header#RGB {
+			background-color: #ffff00;
+		}
+
+		body section article header#RGBA {
+			background-color: #008000;
+			color: #fff;
+		}
+
+		body section article header#HSLHSV {
+			background-color: blue;
+			color: #fff;
+		}
+
+		body section article header#lorem {
+			background-color: #800080;
+			color: #fff;
+		}
+
+		body section article span[lang="la"] {
+			color: blue;
+            font-style: italic;
+		}
+
+		body section article span[lang="la"]:before,
+		body section article span[lang="la"]:after  {
+			content: "''"
+		}
+
+		body section article div,
+		body section article span {
+			font-weight: normal;
+		}
+
+		body section article div:first-letter {
+			font-size: 60px;
+			font-style: italic;
+			font-weight: normal;
+		}
+
+		body section article div::first-line {
+			font-style: italic;
+		}
+
+		body section article footer a {
+			font-style: italic;
+			color: gray;
+			padding-top: 10px;
+		}
+
+	body section article:nth-child(1) {
+
+	}
