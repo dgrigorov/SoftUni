@@ -1,4 +1,4 @@
-<h1>SoftUni Homework</h1>
+#Soft Uni
 
 <hr />
 
@@ -7,6 +7,10 @@
 <em>Version:</em> <del>1.0.0</del> 1.0.1 (22.06.2014)</p>
 
 <hr />
+
+<a href="" target="_blank" title="Достъпно и качествено софтуерно образование">
+  <img src="http://www.nakov.com/wp-content/uploads/2014/01/Software-University-Logo-blue-horizontal.png" alt="SoftUni Banner" />
+</a>
 
 <h2>Table of Contents</h2>
 
