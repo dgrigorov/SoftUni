@@ -1,7 +1,5 @@
 #Soft Uni
 
-<hr />
-
 <a href="https://softuni.bg/" target="_blank" title="Достъпно и качествено софтуерно образование">
   <img src="http://www.nakov.com/wp-content/uploads/2014/01/Software-University-Logo-blue-horizontal.png" alt="SoftUni Banner" />
 </a>
