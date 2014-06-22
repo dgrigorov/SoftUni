@@ -10,48 +10,26 @@
 
 <h2>Table of Contents</h2>
 
-<ol class="contents">
-<li class="html"><a href="#html">Web Fundamentals</a>
-  <ul>
-  <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML">HTML</a></li>
-  <li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS">CSS</a></li>
-  </ul>
-</li>
-<li>JavaScript Basics</li>
-<li>PHP Basics</a></li>
-<li>Teamwork and Personal Skills</li>
-</ol>
+|     | Programming                                                         | Web Design                                          |
+| --- | ------------------------------------------------------------------- | -----------------------------------------------     |
+| 1.  | [C# - Part I](#c---part-i)                                          | [HTML Basics](#html-basics)                         |
+| 2.  | [C# - Part II](#c---part-ii)                                        | [CSS Styling](#css-styling)                         |
+| 3.  | [Object-Oriented Programming](#object-oriented-programming)         | [JavaScript - Part I](#javascript---part-i)         |
+| 4.  | [High-Quality Code](#high-quality-code)                             | [JavaScript - Part II](#javascript---part-ii)       |
+| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms)   | [JavaScript Applications](#javascript-applications) |
 
 
 <hr />
 
-<h2 id="html">1. HTML Structure</h2>
+## HTML Basics
 
-<p>The HTML course structure for each homework is as follows:</p>
-
-<ul>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/1.HTML%20Basics">HTML Basics</a></li>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/2.HTML%20Tables">HTML Tables</a></li>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/3.HTML%20Forms">HTML Forms and Controls</a></li>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/4.HTML%20Semantic">HTML Semantic, Frames etc. (unfinished Problem 6.Barbies's Twitter)</a></li>
-</ul>
-
-<hr />
-
-<h2 id="css">2. CSS Structure</h2>
-
-<p>The HTML course structure for each homework is as follows:</p>
-
-<ul>
-<li><a href="https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/1.CSS%20Overview">CSS Overview</a></li>
-<li>CSS Presentation's tags</li>
-<li>CSS Position's tags</li>
-<li>CSS Transforms. Adaptive design</li>
-<li>Advanced CSS</li>
-</ul>
-
-<hr />
-
+1. Introduction to Web Technologies - 28.05.2014
+2. [HTML Fundamentals](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/1.HTML%20Basics) - 02.06.2014
+3. [HTML Tables](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/2.HTML%20Tables) - 04.06.2014
+4. [HTML Forms and Controls](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/3.HTML%20Forms) - 09.06.2014
+5. [HTML Semantic](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/4.HTML%20Semantic) - 11.06.2014
+6. Sample Test - 23.11.2012
+7. Test - 01.12.2012
 
 
 
