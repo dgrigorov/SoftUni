@@ -4,7 +4,7 @@
 
 <em>Author:</em> Daniel Grigorov<br/>
 <em>Created:</em> 06/07/2014<br/>
-<em>Version:</em> 1.0.0</p>
+<em>Version:</em> <del>1.0.0</del> 1.0.1 (22.06.2014)</p>
 
 <hr />
 
