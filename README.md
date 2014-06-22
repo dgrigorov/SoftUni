@@ -12,7 +12,7 @@
 
 |     | Programming                                                         | Web Design                                          |
 | --- | ------------------------------------------------------------------- | -----------------------------------------------     |
-| 1.  | [C# - Part I](#c---part-i)                                          | [HTML Basics](#html-basics)                         |
+| 1.  | [C# - Part I](#c---part-i)                                          | [Web Fundamentals](#web-fundamentals)                         |
 | 2.  | [C# - Part II](#c---part-ii)                                        | [CSS Styling](#css-styling)                         |
 | 3.  | [Object-Oriented Programming](#object-oriented-programming)         | [JavaScript - Part I](#javascript---part-i)         |
 | 4.  | [High-Quality Code](#high-quality-code)                             | [JavaScript - Part II](#javascript---part-ii)       |
@@ -21,7 +21,7 @@
 
 <hr />
 
-## HTML Basics
+## Web Fundamentals
 
 1. Introduction to Web Technologies - 28.05.2014
 2. [HTML Fundamentals](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/1.HTML%20Basics) - 02.06.2014
