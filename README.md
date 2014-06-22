@@ -10,10 +10,10 @@
 
 <h2>Table of Contents</h2>
 
-|     | Programming                                                         | Web Design                                          |
-| --- | ------------------------------------------------------------------- | -----------------------------------------------     |
-| 1.  | Java Basics  (expected)                                           | [Web Fundamentals](#web-fundamentals)                         |
-| 2.  | PHP Basics (expected)                                        | JavaScript Basics (expected)                         |
+|     | Programming                  | Web Design                                          | Other
+| --- | ---------------------------- | -----------------------------------------------     |-----------------------------
+| 1.  | Java Basics  (expected)      | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#tw-ps) 
+| 2.  | PHP Basics (expected)        | JavaScript Basics (expected)                        | 
 
 
 <hr />
@@ -33,6 +33,13 @@
 11. [Team Work] - expected
 12. [Preparation for Exam] - expected
 13. [Practice Exam] - 6/7/8.07.2014 
+
+
+## Teamwork and Personal skills
+1. [Create Blog](http://grigorovtuts.wordpress.com/) - 09.05.2014
+2. [Source Control Systems](https://github.com/dgrigorov) - 23.05.2014
+3. Project Tracking Tools - 6.06.2014
+4. Mind Mapping - 20.06.2014
 
 
 
