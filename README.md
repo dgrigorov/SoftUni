@@ -12,11 +12,8 @@
 
 |     | Programming                                                         | Web Design                                          |
 | --- | ------------------------------------------------------------------- | -----------------------------------------------     |
-| 1.  | [C# - Part I](#c---part-i)                                          | [Web Fundamentals](#web-fundamentals)                         |
-| 2.  | [C# - Part II](#c---part-ii)                                        | [CSS Styling](#css-styling)                         |
-| 3.  | [Object-Oriented Programming](#object-oriented-programming)         | [JavaScript - Part I](#javascript---part-i)         |
-| 4.  | [High-Quality Code](#high-quality-code)                             | [JavaScript - Part II](#javascript---part-ii)       |
-| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms)   | [JavaScript Applications](#javascript-applications) |
+| 1.  | Java Basics  (expected)                                           | [Web Fundamentals](#web-fundamentals)                         |
+| 2.  | PHP Basics (expected)                                        | JavaScript Basics (expected)                         |
 
 
 <hr />
