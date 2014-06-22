@@ -29,13 +29,13 @@
 4. [HTML Forms and Controls](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/3.HTML%20Forms) - 09.06.2014
 5. [HTML Semantic](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/HTML/4.HTML%20Semantic) - 11.06.2014
 6. [CSS Overview](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/1.CSS%20Overview) - 16.06.2014
-7. [CSS Presentation]() - 18.06.2014
-8. [CSS Position's tags]() - expected
-9. [Adaptive design. CSS Transform]() - expected
-10. [Advanced CSS]() - expected
-11. [Team Work]() - expected
-12. [Preparation for Exam]() - expected
-13. [Practice Exam]() - 6/7/8.07.2014 
+7. [CSS Presentation] - 18.06.2014
+8. [CSS Position's tags] - expected
+9. [Adaptive design. CSS Transform] - expected
+10. [Advanced CSS] - expected
+11. [Team Work] - expected
+12. [Preparation for Exam] - expected
+13. [Practice Exam] - 6/7/8.07.2014 
 
 
 
