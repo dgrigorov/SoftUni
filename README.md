@@ -33,7 +33,7 @@
 8. [CSS Layout](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/3.CSS%20Layout) - 23.06.2014
 9. Adaptive design. Bootstrap - expected
 10. Advanced CSS - expected
-11. Team Work - expected
+11. [Teamwork](https://github.com/FEYRBRAND2/SoFunnyUni) - 02.07.2014
 12. Preparation for Exam - expected
 13. Practice Exam - 6/7/8.07.2014 
 
