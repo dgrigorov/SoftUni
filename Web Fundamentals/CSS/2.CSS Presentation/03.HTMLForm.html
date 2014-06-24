@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Fundamentals Soft Uni - CSS Presentation (HTML Form)</title>
+	<link rel="stylesheet" href="css/03-styles.css" type="text/css">
+</head>
+<body>
+	<div class="container">
+
+		<form action="" method="post">
+			<fieldset>
+				<legend>Step 1: Your details</legend>
+				<div class="data">
+					<label for="name">Name: </label>
+					<input type="text" name="name" id="name" placeholder="First and last name" required>
+				</div>
+				<div class="data">
+					<label for="email">Email: </label>
+					<input type="email" name="email" id="email" placeholder="example@domain.com" required>
+				</div>
+				<div class="data">
+					<label for="Phone">Phone: </label>
+					<input type="tel" name="tel" id="tel" placeholder="eg. +4475000000000" required>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Step 2: Delivery Adress</legend>
+				<div class="data">
+					<label for="address" id="address-label">Addres: </label>
+					<textarea rows="5" cols="22" id="address" required></textarea>
+				</div>
+				<div class="data">
+					<label for="postcode">Postcode: </label>
+					<input type="text" name="postcode" id="postcode" required>
+				</div>
+				<div class="data">
+					<label for="country">Country: </label>
+					<input type="text" name="country" id="country" required>
+				</div>	
+			</fieldset>
+
+			<fieldset>
+				<legend>Step 3: Card details</legend>
+				<div class="data">
+					<p>Card type</p>
+					<ul>
+						<li>
+							<input type="radio" name="card" id="visa" value="visa" required>
+							<span>VISA</span>
+						</li>
+						<li>
+							<input type="radio" name="card" id="AmEx" value="amex" class="creditcard">
+							<span>AmEx</span>
+						</li>
+						<li>
+							<input type="radio" name="card" id="mastercard" value="mastercard" class="creditcard">
+							<span>MasterCard</span>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="data">
+					<label for="card-number">Card number: </label>
+					<input type="text" name="cardnumber" id="card-number" required>
+				</div>
+				<div class="data">
+					<label for="security-code">Security code: </label>
+					<input type="password" name="security-code" id="security-code" required>
+				</div>	
+				<div class="data">
+					<label for="card-name">Name on card: </label>
+					<input type="text" name="card-name" id="card-name" placeholder="exact name as on the card" required>
+				</div>				
+			</fieldset>	
+			<input type="submit" value="BUY IT!">
+		</form>
+		
+	</div>
+</body>
+</html>

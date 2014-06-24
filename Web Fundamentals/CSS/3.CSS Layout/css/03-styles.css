@@ -1,0 +1,215 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	background-color: #eee;
+	font-size: 14px;
+	margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.h1, 
+.h2, 
+.h3, 
+.h4, 
+.h5, 
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h5, .h5 {
+	font-size: 16px;
+	color: #234465;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a {
+	color: #234465;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+.container {
+    width: 1170px;
+    margin: 20px auto;
+}
+
+	.container h2 {
+		margin: 40px 0 20px;
+		text-shadow: 0 1px #fff;
+		font-size: 24px;
+		color: #234465;
+	}
+
+.col-md-4 {
+	padding-right: 15px;
+	float: left;
+	width: 31.33333333%;
+}
+
+.col-md-12 {
+	width: 100%;
+	float: left;
+}
+
+.newsList .box {
+	height: 420px;
+}
+
+.panel-body {
+	padding: 0 15px 0 15px;
+}
+
+.newsList .box h5 {
+	height: 34px;
+	overflow: hidden;
+}
+
+.box {
+	background: #fff;
+	padding: 20px !important;
+	box-shadow: 0 2px 3px #bfbfbf;
+	list-style: none;
+	margin: 0 0 30px 0;
+}
+
+.date {
+	display: block;
+	color: #000;
+	text-transform: none;
+}
+
+.pull-right {
+	float: right!important;
+}
+
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+
+.newsList .box .newsListThumb {
+	margin: 0 0 20px;
+}
+
+.img-responsive, 
+.thumbnail > img, 
+.thumbnail a > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.newsList .box a .newsDetails {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+.newsList .box .newsDetails {
+	height: 40px;
+	overflow: hidden;
+}
+
+.newsDetails {
+	margin: 0 0 20px 0;
+}
+
+.tagLine {
+	font-size: 13px;
+	max-height: 50px;
+	overflow: hidden;
+}
+
+	.tagLine a {
+		color: #999;
+	}
+
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.btn-group>.btn:first-child {
+	margin-left: 0;
+}
+
+.btn-group>.btn {
+	position: relative;
+	float: left;
+}
+
+.pagination a {
+	border: solid 1px #fff;
+}
+
+.btn-primary {
+	background-color: #FF9C00;
+	border-color: #FF9C00;
+	color: #FFFFFF;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.btn-default {
+	color: #ffffff;
+	background-color: #4ca0db;
+	border-color: #357ebd;
+	text-shadow: 0 1px 0 #000;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius: 0;
+}

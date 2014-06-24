@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Fundamentals Soft Uni - CSS Layout (Website Header)</title>
+	<link rel="stylesheet" href="css/01-styles.css" type="text/css">
+</head>
+<body>
+    <header class="navbar-wrapper">
+        <div class="container">
+            <table>
+                <tr>
+                    <td rowspan="2">
+                        <a href="https://softuni.bg" target="_blank"><img alt="SoftUni logo" src="img/logo.png"/></a>
+                    </td>
+                    <td>
+                        <a href="">
+                            <span class="unread-notifications-count">0</span>
+                            <span class="notifications"></span>
+                        </a>
+                        <ul class="user">
+                            <li class="dropdown">
+                                <a href="#" class="user">User &#x25BE;</a>
+                                <ul class="dropdown">
+                                    <li><a href="">Edin your profile</a></li>
+                                    <li><a href="">Teamwork</a></li>
+                                    <li><a href="">Exit</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="search" id="search" name="search" autofocus placeholder="Search...">
+                            <input type="image" src="img/search.png" name="submitBtn" alt="Submit">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <nav role="navigation">
+                            <ul>
+                                <li>
+                                    <a href="https://softuni.bg/news" title="News" target="_blank">News</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">About the university &#x25BE;</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Proffesions</a></li>
+                                        <li><a href="#">Plans</a></li>
+                                        <li><a href="#">University-partners</a></li>
+                                        <li><a href="#">Trainee</a></li>
+                                        <li><a href="#">Mansions</a></li>
+                                        <li><a href="#">Аpplication</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Training courses &#x25BE;</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Java Basics may 2014</a></li>
+                                        <li><a href="#">C# Basics march 2014</a></li>
+                                        <li><a href="#">C# Basics may 2014</a></li>
+                                        <li><a href="#">Web Fundamentals (HTML + CSS) may 2014</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/companies" title="For companiess" target="_blank">For companies</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/forum" title="Forum" target="_blank">Forum</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/contacts" title="Contacts" target="_blank">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+</body>
+</html>

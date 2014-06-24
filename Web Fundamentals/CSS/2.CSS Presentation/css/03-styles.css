@@ -1,0 +1,86 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: url(../img/formBackground.jpg) no-repeat;
+  background-size: cover;
+}
+
+	body .container {
+		width: 960px;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+
+	body .container form input[type="submit"] {
+		border-radius: 20px;
+		background-color: #04152F;
+		color: white;
+		border: none;
+		margin-left: 200px;
+		padding: 10px 20px;
+	}
+
+	body .container form input[type="submit"]:hover {
+		cursor: pointer;
+	}
+
+	body .container form fieldset {
+		border: 0;
+	}
+
+		body .container form fieldset legend {
+			color: #fff;
+			font-weight: 700;
+			font-size: 20px;
+		}
+
+		body .container form fieldset .data {
+			padding: 15px;
+			margin-bottom: 5px;
+			border: 2px solid #A9BFDB;
+			border-radius: 5px;
+			background-color: rgba(192,192,192,0.4);
+			max-width: 450px;
+		}
+
+			body .container form fieldset .data label {
+				width: 75px;
+			}
+
+			body .container form fieldset .data input {
+				width: 200px;
+				position: relative;
+				float: right;
+				right: 50px;
+				border: 1px solid #eee;
+				border-radius: 3px;
+				padding: 3px;
+			}
+
+			body .container form fieldset .data textarea {
+				margin-left: 130px;
+				border: 1px solid #eee;
+				border-radius: 3px;
+			}
+
+			body .container form fieldset .data ul {
+				padding-left: 5px;
+				padding-bottom: 15px;
+			}
+
+				body .container form fieldset .data ul li {
+					list-style-type: none;
+					float: left;
+				}
+
+					body .container form fieldset .data ul li input {
+						width: auto;
+					}
+
+					body .container form fieldset .data ul li span {
+						padding-left: 5px;
+					}

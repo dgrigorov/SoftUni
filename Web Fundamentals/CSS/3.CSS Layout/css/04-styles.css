@@ -1,0 +1,175 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	background-color: #fff;
+	font-size: 14px;
+	margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.h1, 
+.h2, 
+.h3, 
+.h4, 
+.h5, 
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h5, .h5 {
+	font-size: 16px;
+	color: #234465;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+p, ul, li, input {
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    width: 1170px;
+    margin: -20px auto;
+}
+
+.header-bg {
+	min-height: 340px;
+	background: url(../img/headerBackground.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+
+.header-bg h1 {
+	position: absolute;
+	right: 100px;
+	bottom: 30px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+nav {
+	border-bottom: 2px solid #e0e0e0;
+}
+
+	nav ul {
+		background: #eee;
+		height: 45px;
+	}
+
+		nav ul li {
+			list-style-type: none;
+			float: left;
+			border-left: 1px solid #fff;
+			border-right: 1px solid #fff;
+			padding: 10px;
+		}
+
+		nav ul li:hover {
+			background-color: rgb(188, 188, 188);
+		}
+
+			nav ul li:hover a {
+				text-decoration: none;
+			}
+
+			nav ul li a {
+				font-size: 20px;
+				text-transform: uppercase;
+				padding: 5px 15px;
+			}
+
+			nav ul li:hover a {
+				color: #fff;
+			}
+
+section article,
+aside div {
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid #ededed;
+	margin: 15px 0;
+}
+
+
+section article.welcome p:first-line {
+	font-weight: bold;
+}
+
+aside {
+	float: right;
+}
+
+.col-md-9 {
+	width: 72%;
+	float: left;
+}
+
+.col-md-3 {
+	width: 25%;
+}
+
+.green {
+	color: #89bc11;
+	font-weight: 900;
+	font-size: 1.5em;
+}
+
+.text {
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+	.text p {
+		padding-top: 20px;
+	}
+
+.news {
+	background-color: #eee;
+}
+
+	.news ul li {
+		list-style-type: none;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.news ul li a {
+		text-decoration: underline;
+	}
+
+.news a,
+.messages a {
+	color: #89bc11;
+}
