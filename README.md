@@ -31,11 +31,11 @@
 6. [CSS Overview](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/1.CSS%20Overview) - 16.06.2014
 7. [CSS Presentation](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/2.CSS%20Presentation) - 18.06.2014
 8. [CSS Layout](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/3.CSS%20Layout) - 23.06.2014
-9. Adaptive design. Bootstrap - expected
-10. Advanced CSS - expected
+9. [Responsive design.Bootstrap](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/4.Responsive%20Design%20-%20Bootstrap) - 26.06.2014
+10. CSS Peprocessors (SASS and LESS)- expected
 11. [Teamwork](https://github.com/FEYRBRAND2/SoFunnyUni) - 02.07.2014
 12. Preparation for Exam - expected
-13. Practice Exam - 6/7/8.07.2014 
+13. Practice Exam - 6.07.2014 
 
 
 ## Teamwork and Personal skills
