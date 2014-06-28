@@ -15,7 +15,7 @@
 
 |     | Programming                  | Web Design                                          | Other
 | --- | ---------------------------- | -----------------------------------------------     |-----------------------------
-| 1.  | Java Basics  (expected)      | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#teamwork-and-personal-skills) 
+| 1.  | Java Basics       | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#teamwork-and-personal-skills) 
 | 2.  | PHP Basics (expected)        | JavaScript Basics (expected)                        | 
 
 
