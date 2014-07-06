@@ -32,8 +32,8 @@
 7. [CSS Presentation](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/2.CSS%20Presentation) - 18.06.2014
 8. [CSS Layout](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/3.CSS%20Layout) - 23.06.2014
 9. [Responsive design.Bootstrap](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/4.Responsive%20Design%20-%20Bootstrap) - 26.06.2014
-10. CSS Peprocessors (SASS and LESS)- expected
-11. [Teamwork](https://github.com/FEYRBRAND2/SoFunnyUni) - 02.07.2014
+10. CSS Peprocessors (SASS and LESS) - 30.06.2014
+11. [Teamwork](https://github.com/FEYRBRAND2/SoFunnyUni) [demo](http://firststepsnikolov.softuni-friends.org/sofunnyuni/index.html)- 02.07.2014
 12. [Practice Exam](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/Practice%20exam) - 6.07.2014
 
 
