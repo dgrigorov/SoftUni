@@ -31,7 +31,8 @@ Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screen
 * Pixel-perfect implementation is not required.
 
 
-###[JSFiddle Demo](http://jsfiddle.net/pichowskii/s3tSX/)
+###[JSFiddle Demo](http://jsfiddle.net/pichowskii/s3tSX/) 
+*To open link in new window, press Ctrl + Left Mouse's Button
  
 
 ## 2. Lorem Ipsum Site
@@ -62,6 +63,7 @@ Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screen
 
 
 ###[JSFiddle Demo](http://jsfiddle.net/pichowskii/zUdzY/)
+*To open link in new window, press Ctrl + Left Mouse's Button
  
 
 ## 3. Login Search Form
@@ -98,6 +100,7 @@ Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screen
 
 
 ###[JSFiddle Demo](http://jsfiddle.net/pichowskii/9AVgD/)
+*To open link in new window, press Ctrl + Left Mouse's Button
 
 ## 4. Responsive Web Site
 You are given an unresponsive Web site (HTML + images). The website is as wide as the screen. Your task is to make the site responsive. The site layout should change according to the browser viewport / screen size.
@@ -121,3 +124,4 @@ You are given an unresponsive Web site (HTML + images). The website is as wide a
 
 
 ###[JSFiddle Demo](http://jsfiddle.net/pichowskii/ZAPX6/)
+*To open link in new window, press Ctrl + Left Mouse's Button
