@@ -34,8 +34,7 @@
 9. [Responsive design.Bootstrap](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/CSS/4.Responsive%20Design%20-%20Bootstrap) - 26.06.2014
 10. CSS Peprocessors (SASS and LESS)- expected
 11. [Teamwork](https://github.com/FEYRBRAND2/SoFunnyUni) - 02.07.2014
-12. Preparation for Exam - expected
-13. Practice Exam - 6.07.2014 
+12. [Practice Exam](https://github.com/dgrigorov/SoftUni/tree/master/Web%20Fundamentals/Practice%20exam) - 6.07.2014
 
 
 ## Teamwork and Personal skills
