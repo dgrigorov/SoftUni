@@ -1,0 +1,190 @@
+body {
+	font-family: "Tahoma", Helvetica, sans-serif;
+	font-size: 15px !important;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.pull-right {
+	float: right;
+}
+
+header,
+footer {
+	background-color: #eee;
+	width: 920px;
+	margin: 0 auto;
+}
+
+.navbar {
+	position: relative;
+	min-height: 80px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+.navbar-header {
+	float: left;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.navbar-collapse {
+	max-height: 340px;
+	padding-right: 0;
+	padding-left: 0;
+	display: block!important;
+	height: auto!important;
+	padding-bottom: 0;
+	overflow: visible!important;
+	width: auto;
+	border-top: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-nav {
+	float: left;
+	margin: 0;
+}
+
+.nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.navbar-nav>li {
+	float: left;
+	padding-right: 50px;
+}
+
+	.navbar-nav>li a {
+		color: #818181;
+		text-decoration: none;
+		font-weight: 700;
+		padding: 20px;
+	}
+
+	.navbar-nav>li.active a,
+	.navbar-nav>li.active a:hover {
+		color: #f79600;
+	}
+
+	.navbar-nav>li.active a:hover,
+	.navbar-nav>li a:hover {
+		background-color: #cad1d1;
+		border-radius: 10px;
+	}
+
+	.navbar-nav>li a:hover {
+		color: #555;
+	}
+
+.nav>li {
+	position: relative;
+	display: block;
+}
+
+section article h1 {
+	color: #3e3e3e;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+section article p {
+	padding-bottom: 30px;
+}
+
+.col-md-6 {
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+}
+
+.col-md-12 {
+	width: 100%;
+	float: left;
+}
+
+.socials {
+	float: right;
+}
+
+.copyright {
+	display: inline-block;
+}
+
+footer {
+	padding-bottom: 10px;
+}
+
+	footer p,
+	footer ul li {
+		padding: 0 20px;
+	}
+
+		footer ul {
+			position: relative;
+			width: 50%;
+			float: right;
+		}
+
+			footer ul li {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+			}
+
+				footer ul li a {
+					width: 30px;
+					height: 30px;
+					background: url(img/icons.png) no-repeat;
+					display: block;
+		  			text-indent: -9999px;
+		  			position: absolute;
+		  			top: 0;
+		  			left: 0;
+				}
+
+		footer ul li.facebook a {
+			background-position: 0 0;
+		}
+
+		footer ul li.facebook a:hover {
+			background-position: 100% 0;
+		}
+
+		footer ul li.gplus a {
+			background-position: 0 33%;
+			margin-left: 50px;
+		}
+
+		footer ul li.gplus a:hover {
+			background-position: 100% 33%;
+		}
+
+		footer ul li.twitter a {
+			background-position: 0 67%;
+			margin-left: 100px;
+		}
+
+		footer ul li.twitter a:hover {
+			background-position: 100% 67%;
+		}
+
+		footer ul li.tumblr a {
+			background-position: 0 100%;
+			margin-left: 150px;
+		}
+
+		footer ul li.tumblr a:hover {
+			background-position: 100% 100%;
+		}
