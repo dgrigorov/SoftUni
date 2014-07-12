@@ -1,0 +1,3 @@
+function hometown() {
+	alert("Sofia");
+}
