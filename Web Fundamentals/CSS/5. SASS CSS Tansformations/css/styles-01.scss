@@ -1,0 +1,218 @@
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+@mixin horizontal-gradient($from, $to,$repeat:none) {
+    background-image: -webkit-linear-gradient(left, $from, $to);
+    background-image: -moz-linear-gradient(left, $from, $to);
+    background-image: -ms-linear-gradient(left, $from, $to);
+    background-image: -o-linear-gradient(left, $from, $to);
+    background-image: linear-gradient(to right, $from, $to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 );
+	background-repeat:$repeat;
+}
+
+@mixin diagonal-gradient($from, $to,$repeat:none) {
+	background: $from;
+	background: -moz-linear-gradient(-45deg, $from, $to);
+	background: -webkit-gradient(linear, left top, right bottom,$from, $to);
+	background: -webkit-linear-gradient(-45deg,  $from, $to);
+	background: -o-linear-gradient(-45deg,  $from, $to);
+	background: -ms-linear-gradient(-45deg,  $from, $to);
+	background: linear-gradient(135deg,  $from, $to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='{$from}', endColorstr='#{to}',GradientType=1 );	
+}
+
+@mixin radial-gradient($from, $to,$repeat:none) {
+	background: $from;
+	background: -moz-radial-gradient(center, ellipse cover, $from, $to);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop($from), color-stop($to));
+	background: -webkit-radial-gradient(center, ellipse cover,  $from, $to);
+	background: -o-radial-gradient(center, ellipse cover, $from, $to);
+	background: -ms-radial-gradient(center, ellipse cover,  $from, $to);
+	background: radial-gradient(ellipse at center,$from, $to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 );
+}
+
+@mixin menu-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+@mixin body-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+body {
+	font-family: "Verdana", sans-serif !important;
+	font-size: 15px !important;
+	@include body-gradient(#818181, #ffffff); // Stick in your favourite HEX colours
+	text-align: center;
+	color: #818181;
+	margin: 0;
+	padding: 0;
+
+	#wrapper {
+		width: 1020px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: #fff;
+		border: 4px solid  #bababa;
+
+		ul li {
+			list-style-type: none;
+
+			& a {
+				color: #818181;
+				text-decoration: none;
+			}
+		}
+
+		nav ul li {
+			display: inline-block;
+			margin-right: 30px;
+			border: 3px solid #b5b5b5;
+			padding: 10px;
+
+			&:hover {
+				@include menu-gradient(#868686, #b5b5b5); // Stick in your favourite HEX colours
+				
+				& a {
+					cursor: default;
+					color: #fff;
+				}
+			}
+		}
+
+		h1,
+		h3 {
+			font-weight: 400;
+			text-decoration: underline;
+		}
+
+		h2 {
+			font-size: 1em;
+			font-weight: 400;
+		}
+
+		& > header,
+		section,
+		footer {
+			padding: 15px;
+			border: 4px solid  #bababa;
+			margin-bottom: 30px;
+		}
+
+		section article {
+			border: 2px solid  #bababa;
+			margin-bottom: 15px;
+
+			& .innerContainer {
+				padding: 15px;
+					&  div {
+					height: 153px;
+					width: 153px;
+					border-radius: 20px;
+					display: inline-block;
+
+					&.purple {
+					    @include linear-gradient(#2e002e, #fbecfb); // Stick in your favourite HEX colours
+					}
+					&.blue {
+						@include linear-gradient(#0808b2, #f0f0fe); // Stick in your favourite HEX colours
+					}
+					&.green {
+						@include linear-gradient(#083708, #e8f8e8); // Stick in your favourite HEX colours
+					}
+					&.yellow {
+						@include linear-gradient(#f6f608, #ffffe1); // Stick in your favourite HEX colours
+					}
+					&.orange {
+						@include linear-gradient(#eb9000, #fefad6); // Stick in your favourite HEX colours
+					}
+					&.red {
+						@include linear-gradient(#d11313, #fddfdf); // Stick in your favourite HEX colours
+					}
+				}
+			} 
+			&:nth-of-type(2) .innerContainer .purple {
+				@include horizontal-gradient(#2e002e, #fbecfb); // Stick in your favourite HEX colours
+			}
+			&:nth-of-type(2) .innerContainer .blue {
+				@include horizontal-gradient(#0808b2, #f0f0fe); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(2) .innerContainer .green {
+				@include horizontal-gradient(#083708, #e8f8e8); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(2) .innerContainer .yellow {
+				@include horizontal-gradient(#f6f608, #ffffe1); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(2) .innerContainer .orange {
+				@include horizontal-gradient(#eb9000, #fefad6); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(2) .innerContainer .red {
+				@include horizontal-gradient(#d11313, #fddfdf); // Stick in your favourite HEX colours
+			}	
+
+			&:nth-of-type(3) .innerContainer .purple {
+				@include diagonal-gradient(#2e002e, #fbecfb); // Stick in your favourite HEX colours
+			}
+			&:nth-of-type(3) .innerContainer .blue {
+				@include diagonal-gradient(#0808b2, #f0f0fe); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(3) .innerContainer .green {
+				@include diagonal-gradient(#083708, #e8f8e8); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(3) .innerContainer .yellow {
+				@include diagonal-gradient(#f6f608, #ffffe1); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(3) .innerContainer .orange {
+				@include diagonal-gradient(#eb9000, #fefad6); // Stick in your favourite HEX colours
+			}	
+			&:nth-of-type(3) .innerContainer .red {
+				@include diagonal-gradient(#d11313, #fddfdf); // Stick in your favourite HEX colours
+			}			
+		}
+
+		.radial article {
+			& .innerContainer .purple {
+				@include radial-gradient(#2e002e, #fbecfb); // Stick in your favourite HEX colours
+			}
+			& .innerContainer .blue {
+				@include radial-gradient(#0808b2, #f0f0fe); // Stick in your favourite HEX colours
+			}	
+			& .innerContainer .green {
+				@include radial-gradient(#083708, #e8f8e8); // Stick in your favourite HEX colours
+			}	
+			& .innerContainer .yellow {
+				@include radial-gradient(#f6f608, #ffffe1); // Stick in your favourite HEX colours
+			}	
+			& .innerContainer .orange {
+				@include radial-gradient(#eb9000, #fefad6); // Stick in your favourite HEX colours
+			}	
+			& .innerContainer .red {
+				@include radial-gradient(#d11313, #fddfdf); // Stick in your favourite HEX colours
+			}			
+		}
+	}
+}

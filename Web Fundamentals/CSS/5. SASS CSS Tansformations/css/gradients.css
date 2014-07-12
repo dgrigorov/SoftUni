@@ -1,0 +1,80 @@
+body {
+	font-family: "Verdana", sans-serif !important;
+	font-size: 15px !important;
+	background: #818181;
+	background: -moz-linear-gradient(top,  #818181 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#818181), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #818181 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #818181 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #818181 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #818181 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#818181', endColorstr='#ffffff',GradientType=0 );
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #818181;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 4px solid  #bababa;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul li a {
+	color: #818181;
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+	border: 3px solid #b5b5b5;
+	padding: 10px;
+}
+
+nav ul li:hover {
+	background: #868686;
+	background: -moz-linear-gradient(top,  #868686 0%, #b5b5b5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#868686), color-stop(100%,#b5b5b5));
+	background: -webkit-linear-gradient(top,  #868686 0%,#b5b5b5 100%);
+	background: -o-linear-gradient(top,  #868686 0%,#b5b5b5 100%);
+	background: -ms-linear-gradient(top,  #868686 0%,#b5b5b5 100%);
+	background: linear-gradient(to bottom,  #868686 0%,#b5b5b5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868686', endColorstr='#b5b5b5',GradientType=0 );
+}
+
+nav ul li:hover a {
+	cursor: default;
+	color: #fff;
+}
+
+h1,
+h3 {
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+#wrapper > header,
+section,
+footer {
+	padding: 15px;
+	border: 4px solid  #bababa;
+	margin-bottom: 30px;
+}
+
+section article {
+	border: 2px solid  #bababa;
+}
