@@ -1,12 +1,12 @@
 # JavaScript Development Introduction Homework
 
 1. [Home Town](#1-home-town)
-* [Lorem Ipsum Site](#2-lorem-ipsum-site)
+* [Numbers 1...10](#2-numbers-1...10)
 * [Login Search Form](#3-login-search-form)
 * [Responsive Web Site](#4-responsive-web-site)
 
-## 1. Books
-Write a JavaScript code hometown.js that shows your hometown in a popup browser window (alert). Crate a HTML page hometown.html that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
+##Problem 1. Books
+Write a JavaScript code <strong>hometown.js</strong> that shows your hometown in a popup browser window (alert). Crate a HTML page <strong>hometown.html</strong> that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
 
 ![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/home-town.png)
 
@@ -15,45 +15,28 @@ Write a JavaScript code hometown.js that shows your hometown in a popup browser 
 *To open link in new window, press Ctrl + Left Mouse's Button
  
 
-## 2. Numbers 1...10
-Write a JavaScript program numbers1to10.js that prints on the console the numbers from 1 to 10 (each at a separate line). Run the program through Node.js. Example:
+##Problem 2. Numbers 1...10
+Write a JavaScript program <strong>numbers1to10.js</strong> that prints on the console the numbers from 1 to 10 (each at a separate line). Run the program through <strong>Node.js</strong>. Example:
 
-|     | Command                      | Web Design                                          |
-| --- | ---------------------------- | -----------------------------------------------     |
-| 1.  | node numbers1to10.js         | [Web Fundamentals](#web-fundamentals)               |
-                                     | JavaScript Basics (expected)                        |
-
-
-*The hand cursors in the screenshots shows what happens when the mouse moves over certain elements.
-
-### Input
-
-* You are given the above screenshots + the texts on the site + the site logo + the contact icons (as sprite).
-
-### Output
-
-* The output should be valid HTML5 + CSS3 + images that implement the above Web page.
-
-### Constraints
-* Font: Tahoma / sans-serif.
-* Site content: fixed width 840px.
-* Header and footer: fixed width 920px.
-* Header and footer background: fluid width.
-* The site should open correctly in Chrome 35.
-* Responsive design is not required.
-* Pixel-perfect implementation is not required.
+| Command                      | Output                                                         |
+| ---------------------------- | ---------------------------------------------------------------|
+| node numbers1to10.js         | 1 <br> 2 <br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10     |
 
 
-###[JSFiddle Demo](http://jsfiddle.net/pichowskii/zUdzY/)
-*To open link in new window, press Ctrl + Left Mouse's Button
+### Result
+
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/numbers1to10.JPG)
  
 
-## 3. Login Search Form
-Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screenshots below:
+##Problem 3. Current Time
+Write a JavaScript program <strong>current-time.js</strong> that prints on the console the current time in format <strong>hours:minutes</strong>. The hours should be printed without leading zeroes. The minutes should be printed as two-digit number with a leading zero when needed. Execute your program through <strong>Node.js</strong>. A few sample outputs are given below:
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/3.Login-Search-Form/1.%20Form.png)
-
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/3.Login-Search-Form/1.%20Form-Details.png)
+| Input       | Output    |
+| ----------- | ----------|
+| (no input)  | 21:03     |
+| (no input)  | 21:03     |
+| (no input)  | 21:03     |
+| (no input)  | 21:03     |
 
 
 *The mouse hand-pointers and the hand-written captions are not part of your form, so please skip them.
