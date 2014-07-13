@@ -1,12 +1,12 @@
 # JavaScript Development Introduction Homework
 
-1. [Home Town](#Problem 1-home-town)
-* [Numbers 1...10](#Problem 2-numbers-1...10)
-* [Current time](#Problem 3-current-time)
-* [Circle Area](#Problem 4-circle-area)
-* [Decimal to Heaxadecimal](#Problem 5-decimal-to-hexadecimal)
+1. [Home Town](#1-home-town)
+* [Numbers 1...10](#2-numbers-1...10)
+* [Current time](#3-current-time)
+* [Circle Area](#4-circle-area)
+* [Decimal to Heaxadecimal](#5-decimal-to-hexadecimal)
 
-##Problem 1. Home Town
+## 1. Home Town
 Write a JavaScript code <strong>hometown.js</strong> that shows your hometown in a popup browser window (alert). Crate a HTML page <strong>hometown.html</strong> that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
 
 ![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/home-town.png)
@@ -16,7 +16,7 @@ Write a JavaScript code <strong>hometown.js</strong> that shows your hometown in
 *To open link in new window, press Ctrl + Left Mouse's Button
  
 
-##Problem 2. Numbers 1...10
+## 2. Numbers 1...10
 Write a JavaScript program <strong>numbers1to10.js</strong> that prints on the console the numbers from 1 to 10 (each at a separate line). Run the program through <strong>Node.js</strong>. Example:
 
 | Command                      | Output                                                         |
@@ -29,7 +29,7 @@ Write a JavaScript program <strong>numbers1to10.js</strong> that prints on the c
 ![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/numbers1-10.JPG)
  
 
-##Problem 3. Current Time
+## 3. Current Time
 Write a JavaScript program <strong>current-time.js</strong> that prints on the console the current time in format <strong>hours:minutes</strong>. The hours should be printed without leading zeroes. The minutes should be printed as two-digit number with a leading zero when needed. Execute your program through <strong>Node.js</strong>. A few sample outputs are given below:
 
 | Input       | Output    |
@@ -45,7 +45,7 @@ Write a JavaScript program <strong>current-time.js</strong> that prints on the c
 
 ![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/current-time.JPG)
 
-##Problem 4. Circle Area
+## 4. Circle Area
 Write a JavaScript function <strong>calcCircleArea(r)</strong> that takes as a parameter the <strong>radius of a rectangle</strong> and calculates and returns its area. Put the function in a file named <strong>circle-area.js</strong>. Write a HTML page <strong>circle-area.html</strong> that includes the script <strong>circle-area.js</strong> and calculates and prints in the page body the area of circles of size r=7, r=1.5 and r=20.<br> Examples:
 
 | Input| Output                 |
@@ -60,7 +60,7 @@ Write a JavaScript function <strong>calcCircleArea(r)</strong> that takes as a p
 ###[CodePen DEMO](http://codepen.io/dgrigorov/pen/Foymk) 
 *To open link in new window, press Ctrl + Left Mouse's Button
 
-##Problem 5. Decimal to Hexadecimal
+## 5. Decimal to Hexadecimal
 Write a JavaScript code in a Web page <strong>dec2hex.html</strong> that enters a positive integer number <strong>num</strong> and converts and converts it to a hexadecimal form. The input should be entered as JavaScript <strong>prompt</strong> window. The output should be shown as browser popup window (<strong>alert</strong>). <br>Examples:
 
 | Input     | Output    |
