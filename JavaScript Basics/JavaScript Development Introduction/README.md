@@ -1,46 +1,27 @@
 # JavaScript Development Introduction Homework
 
-1. [Books](#1-boks)
+1. [Home Town](#1-home-town)
 * [Lorem Ipsum Site](#2-lorem-ipsum-site)
 * [Login Search Form](#3-login-search-form)
 * [Responsive Web Site](#4-responsive-web-site)
 
 ## 1. Books
-Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screenshots below:
+Write a JavaScript code hometown.js that shows your hometown in a popup browser window (alert). Crate a HTML page hometown.html that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/1.Books/1.%20Books.png)
-
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/1.Books/2.%20Books-mouse-over.png)
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/home-town.png)
 
 
-*The hand cursors in the screenshots shows what happens when the mouse moves over certain elements.
-
-### Input
-
-* You are given the above screenshots + all required images + the texts on the site.
-
-### Output
-
-* The output should be valid HTML5 + CSS3 + images that implement the above Web page.
-
-### Constraints
-* Font: Tahoma / Helvetica / sans-serif (size: 11px for the text, 10px for the buttons).
-* Column width: 145px.
-* The site should open correctly in Chrome 35.
-* Responsive design is not required.
-* Pixel-perfect implementation is not required.
-
-
-###[JSFiddle Demo](http://jsfiddle.net/pichowskii/s3tSX/) 
+###[CodePen DEMO](http://codepen.io/dgrigorov/pen/csGJL) 
 *To open link in new window, press Ctrl + Left Mouse's Button
  
 
-## 2. Lorem Ipsum Site
-Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screenshots below:
+## 2. Numbers 1...10
+Write a JavaScript program numbers1to10.js that prints on the console the numbers from 1 to 10 (each at a separate line). Run the program through Node.js. Example:
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/2.Lorem-Ipsum-Site/1.%20Site.png)
-
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/2.Lorem-Ipsum-Site/2.%20Site-mouse-over.png)
+|     | Command                      | Web Design                                          |
+| --- | ---------------------------- | -----------------------------------------------     |
+| 1.  | node numbers1to10.js         | [Web Fundamentals](#web-fundamentals)               |
+                                     | JavaScript Basics (expected)                        |
 
 
 *The hand cursors in the screenshots shows what happens when the mouse moves over certain elements.
