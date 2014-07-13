@@ -2,10 +2,10 @@
 
 1. [Home Town](#1-home-town)
 * [Numbers 1...10](#2-numbers-1...10)
-* [Login Search Form](#3-login-search-form)
-* [Responsive Web Site](#4-responsive-web-site)
+* [Current time](#3-current-time)
+* [Circle Area](#4-circle-area)
 
-##Problem 1. Books
+##Problem 1. Home Town
 Write a JavaScript code <strong>hometown.js</strong> that shows your hometown in a popup browser window (alert). Crate a HTML page <strong>hometown.html</strong> that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
 
 ![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/home-town.png)
@@ -23,9 +23,9 @@ Write a JavaScript program <strong>numbers1to10.js</strong> that prints on the c
 | node numbers1to10.js         | 1 <br> 2 <br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10     |
 
 
-### Result
+### Results
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/numbers1to10.JPG)
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/numbers1-10.JPG)
  
 
 ##Problem 3. Current Time
@@ -34,58 +34,44 @@ Write a JavaScript program <strong>current-time.js</strong> that prints on the c
 | Input       | Output    |
 | ----------- | ----------|
 | (no input)  | 21:03     |
-| (no input)  | 21:03     |
-| (no input)  | 21:03     |
-| (no input)  | 21:03     |
+| (no input)  | 9:57      |
+| (no input)  | 16:30     |
+| (no input)  | 6:00      |
+| (no input)  | 23:59     |
 
 
-*The mouse hand-pointers and the hand-written captions are not part of your form, so please skip them.
+### Results
 
-### Input
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/results/current-time.JPG)
 
-* You are given the above screenshots + the background image + the form field icons (as glyph font).
- * The "username" glyph icon is the character "\e008" in the "Glyphicons Halflings" font.
- * The "password" glyph icon is the character "\e033" in the "Glyphicons Halflings" font.
- * The "search" glyph icon is the character "\e003" in the "Glyphicons Halflings" font.
+##Problem 4. Circle Area
+Write a JavaScript function <strong>calcCircleArea(r)</strong> that takes as a parameter the <strong>radius of a rectangle</strong> and calculates and returns its area. Put the function in a file named <strong>circle-area.js</strong>. Write a HTML page <strong>circle-area.html</strong> that includes the script <strong>circle-area.js</strong> and calculates and prints in the page body the area of circles of size r=7, r=1.5 and r=20.<br> Examples:
 
-### Output
+| Input| Output                 |
+| -----| -----------------------|
+| 7    | 153.93804002589985     |
+| 1.5  | 7.0685834705770345     |
+| 20   | 1256.6370614359173     |
 
-* The output should be valid HTML5 + CSS3 + images that implement the above Web form.
-
-### Constraints
-* Font: Arial / Helvetica / sans-serif.
-* Login form size: 350px x 265px (fixed size).
-* Search form size: 350px x 34px (fixed size).
-* Form background: stretched to fill the entire page.
-* Form validation: no validation is required
-* The site should open correctly in Chrome 35.
-* Responsive design is not required.
-* Pixel-perfect implementation is not required.
-* You are allowed to use external frameworks like Bootstrap, Gumby and ZURB.
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/radius.png)
 
 
-###[JSFiddle Demo](http://jsfiddle.net/pichowskii/9AVgD/)
+###[CodePen DEMO](http://codepen.io/dgrigorov/pen/Foymk) 
 *To open link in new window, press Ctrl + Left Mouse's Button
 
-## 4. Responsive Web Site
-You are given an unresponsive Web site (HTML + CSS + images). Your task is to make the site responsive. The site layout should change according to the browser viewport / screen size. You need to implement only two layouts: width ≤ 780px and width > 780px. The figure on the left represents the site when the screen width is larger than 780px. The figure on the right displays the site on screens widths smaller than 780px.
+##Problem 5. Decimal to Hexadecimal
+Write a JavaScript code in a Web page <strong>dec2hex.html</strong> that enters a positive integer number <strong>num</strong> and converts and converts it to a hexadecimal form. The input should be entered as JavaScript <strong>prompt</strong> window. The output should be shown as browser popup window (<strong>alert</strong>). <br>Examples:
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/4.Responsive-Web-Site/1.%20Site-Wide-Screen.png)
+| Input     | Output    |
+| ----------| ----------|
+| 254       | FE        |
+| 6779      | 1A7B      |
+| 10941298  | A6F372    |
+| 65535     | FFFF      |
+| 0         | 0         |
 
-![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/Web%20Fundamentals/Practice%20exam/4.Responsive-Web-Site/2.%20Site-Small-Screen.png)
-
-### Input
-
-* You are given the unresponsive site as HTML + CSS + images.
-
-### Output
-
-* The output should be valid HTML5 + CSS3 + images that implement the above responsive site.
-
-### Constraints
-* You are free to change the HTML, as well as use external frameworks like Bootstrap.
-* Pixel-perfect implementation is not required.
+![alt tag](https://raw.githubusercontent.com/dgrigorov/SoftUni/master/JavaScript%20Basics/JavaScript%20Development%20Introduction/images/dec-hexa.png)
 
 
-###[JSFiddle Demo](http://jsfiddle.net/pichowskii/ZAPX6/)
+###[CodePen DEMO](http://codepen.io/dgrigorov/pen/Lzepj) 
 *To open link in new window, press Ctrl + Left Mouse's Button
