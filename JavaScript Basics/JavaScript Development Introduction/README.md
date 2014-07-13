@@ -1,10 +1,10 @@
 # JavaScript Development Introduction Homework
 
-1. [Home Town](#Problem1-home-town)
-* [Numbers 1...10](#Problem2-numbers-1...10)
-* [Current time](#Problem3-current-time)
-* [Circle Area](#Problem4-circle-area)
-* [Decimal to Heaxadecimal](#Problem5-decimal-to-hexadecimal)
+1. [Home Town](#Problem 1-home-town)
+* [Numbers 1...10](#Problem 2-numbers-1...10)
+* [Current time](#Problem 3-current-time)
+* [Circle Area](#Problem 4-circle-area)
+* [Decimal to Heaxadecimal](#Problem 5-decimal-to-hexadecimal)
 
 ##Problem 1. Home Town
 Write a JavaScript code <strong>hometown.js</strong> that shows your hometown in a popup browser window (alert). Crate a HTML page <strong>hometown.html</strong> that executes your JavaScript code. A sample result (when you open the HTML page in Chrome Web browser) might be the following:
