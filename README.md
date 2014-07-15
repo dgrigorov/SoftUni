@@ -49,4 +49,4 @@
 
 <h4>Homework by Daniel Grigorov</h4>
 
-<p>If you have any other questions , feel free to e-mail <a href="mailto:grigorov.daniel@gmail.com">grigorov.daniel@gmail.com</a> or add a new post on the <a href="http://grigorovtuts.wordpress.com/" title="visit the blog" target="_blank">blog</a>.</p>
+<p>If you have any other questions , feel free to e-mail <a href="mailto:grigorov.daniel@gmail.com">grigorov.daniel@gmail.com</a> or add a new post on the <a href="http://grigorof.wordpress.com/" title="visit the blog" target="_blank">blog</a>.</p>
