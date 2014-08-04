@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\6.Strings and Objects\bin\Debug\6.Strings and Objects.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\6.Strings and Objects\bin\Debug\6.Strings and Objects.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\6.Strings and Objects\bin\Debug\6.Strings and Objects.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\6.Strings and Objects\obj\Debug\6.Strings and Objects.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\6.Strings and Objects\obj\Debug\6.Strings and Objects.pdb

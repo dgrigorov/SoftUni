@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\4.UnicodeCharacter\bin\Debug\4.UnicodeCharacter.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\4.UnicodeCharacter\bin\Debug\4.UnicodeCharacter.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\4.UnicodeCharacter\bin\Debug\4.UnicodeCharacter.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\4.UnicodeCharacter\obj\Debug\4.UnicodeCharacter.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\4.UnicodeCharacter\obj\Debug\4.UnicodeCharacter.pdb

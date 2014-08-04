@@ -1,0 +1,46 @@
+Problem 12. Development Environments
+
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with 
+popular development environments (IDEs) like Visual Studio. Write in a text file 
+called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each 
+of them. Use English.
+
+-------------------------------------------------------------------------------------
+
+1. Visual Studio
+Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. 
+It is used to develop computer programs for Microsoft Windows, as well as web sites, 
+web applications and web services. Visual Studio uses Microsoft software development 
+platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store 
+and Microsoft Silverlight. It can produce both native code and managed code.
+
+2. Eclipse
+Eclipse is an integrated development environment (IDE). It contains a base workspace and 
+an extensible plug-in system for customizing the environment. Written mostly in Java, 
+Eclipse can be used to develop applications. By means of various plug-ins, Eclipse 
+may also be used to develop applications in other programming languages: Ada, ABAP, C, C++, 
+COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python, R, Ruby, Scala, 
+Clojure, Groovy, Scheme, and Erlang. It can also be used to develop packages for the software Mathematica. 
+Development environments include the Eclipse Java development tools (JDT) for Java and Scala, 
+Eclipse CDT for C/C++ and Eclipse PDT for PHP, among others.
+
+3.Netbeans
+NetBeans is an integrated development environment (IDE) for developing primarily with Java, 
+but also with other languages, in particular PHP, C/C++, and HTML5.[3] It is also an 
+application platform framework for Java desktop applications and others.
+
+4. Kate
+Kate is a programmer's text editor with syntax highlighting for over 200 filetypes. The syntax 
+highlighting is extendable via XML files and can also specify code folding rules. It supports UTF-8, 
+UTF-16, ISO-8859-1 and ASCII encoding schemes and can detect a file's character encoding automatically.
+
+Kate can be used as a modal text editor by using its vi input mode which emulates the vi editor.
+
+5.Gedit
+gedit (/ˈdʒɛdɪt/ or /ˈɡɛdɪt/) is the default text editor of the GNOME desktop environment and 
+part of the GNOME Core Applications. Designed as a general purpose text editor, gedit emphasizes 
+simplicity and ease of use. It includes tools for editing source code and structured text such as markup languages.
+
+It is designed to have a clean, simple graphical user interface according to the philosophy 
+of the GNOME project, and it is the default text editor for GNOME.In addition, it is also 
+available for both Mac OS X and Microsoft Windows.

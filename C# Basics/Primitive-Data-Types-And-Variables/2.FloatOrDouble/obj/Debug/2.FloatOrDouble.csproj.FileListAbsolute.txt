@@ -1,0 +1,6 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\bin\Debug\2.FloatOrDouble.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\bin\Debug\2.FloatOrDouble.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\bin\Debug\2.FloatOrDouble.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\obj\Debug\2.FloatOrDouble.csprojResolveAssemblyReference.cache
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\obj\Debug\2.FloatOrDouble.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\2.FloatOrDouble\obj\Debug\2.FloatOrDouble.pdb

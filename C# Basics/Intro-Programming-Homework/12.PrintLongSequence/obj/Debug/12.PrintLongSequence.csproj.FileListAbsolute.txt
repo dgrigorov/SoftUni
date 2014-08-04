@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\12.PrintLongSequence\bin\Debug\12.PrintLongSequence.exe.config
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\12.PrintLongSequence\bin\Debug\12.PrintLongSequence.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\12.PrintLongSequence\bin\Debug\12.PrintLongSequence.pdb
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\12.PrintLongSequence\obj\Debug\12.PrintLongSequence.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\12.PrintLongSequence\obj\Debug\12.PrintLongSequence.pdb

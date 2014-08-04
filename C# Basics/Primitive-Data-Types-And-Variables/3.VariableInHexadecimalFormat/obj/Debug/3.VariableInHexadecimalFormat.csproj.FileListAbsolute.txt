@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\3.VariableInHexadecimalFormat\bin\Debug\3.VariableInHexadecimalFormat.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\3.VariableInHexadecimalFormat\bin\Debug\3.VariableInHexadecimalFormat.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\3.VariableInHexadecimalFormat\bin\Debug\3.VariableInHexadecimalFormat.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\3.VariableInHexadecimalFormat\obj\Debug\3.VariableInHexadecimalFormat.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\3.VariableInHexadecimalFormat\obj\Debug\3.VariableInHexadecimalFormat.pdb

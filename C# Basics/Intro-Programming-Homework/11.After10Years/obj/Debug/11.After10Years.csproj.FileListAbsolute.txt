@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\11.After10Years\bin\Debug\11.After10Years.exe.config
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\11.After10Years\bin\Debug\11.After10Years.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\11.After10Years\bin\Debug\11.After10Years.pdb
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\11.After10Years\obj\Debug\11.After10Years.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\11.After10Years\obj\Debug\11.After10Years.pdb

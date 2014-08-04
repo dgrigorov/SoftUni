@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\13.ComparingFloats\bin\Debug\13.ComparingFloats.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\13.ComparingFloats\bin\Debug\13.ComparingFloats.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\13.ComparingFloats\bin\Debug\13.ComparingFloats.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\13.ComparingFloats\obj\Debug\13.ComparingFloats.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\13.ComparingFloats\obj\Debug\13.ComparingFloats.pdb

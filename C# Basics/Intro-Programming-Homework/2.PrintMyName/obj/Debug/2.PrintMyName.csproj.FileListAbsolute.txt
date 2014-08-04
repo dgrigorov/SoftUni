@@ -1,0 +1,1 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\2.PrintMyName\bin\Debug\2.PrintMyName.exe.config

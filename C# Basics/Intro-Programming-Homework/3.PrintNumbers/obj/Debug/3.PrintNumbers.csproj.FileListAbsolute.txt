@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\3.PrintNumbers\bin\Debug\3.PrintNumbers.exe.config
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\3.PrintNumbers\bin\Debug\3.PrintNumbers.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\3.PrintNumbers\bin\Debug\3.PrintNumbers.pdb
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\3.PrintNumbers\obj\Debug\3.PrintNumbers.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\3.PrintNumbers\obj\Debug\3.PrintNumbers.pdb

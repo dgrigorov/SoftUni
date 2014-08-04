@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\4.SquareRoot\bin\Debug\4.SquareRoot.exe.config
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\4.SquareRoot\bin\Debug\4.SquareRoot.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\4.SquareRoot\bin\Debug\4.SquareRoot.pdb
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\4.SquareRoot\obj\Debug\4.SquareRoot.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\4.SquareRoot\obj\Debug\4.SquareRoot.pdb

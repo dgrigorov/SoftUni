@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\5.BooleanVariable\bin\Debug\5.BooleanVariable.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\5.BooleanVariable\bin\Debug\5.BooleanVariable.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\5.BooleanVariable\bin\Debug\5.BooleanVariable.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\5.BooleanVariable\obj\Debug\5.BooleanVariable.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\5.BooleanVariable\obj\Debug\5.BooleanVariable.pdb

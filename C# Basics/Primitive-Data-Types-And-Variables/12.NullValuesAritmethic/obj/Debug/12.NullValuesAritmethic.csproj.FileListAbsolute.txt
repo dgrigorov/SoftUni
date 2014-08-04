@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\12.NullValuesAritmethic\bin\Debug\12.NullValuesAritmethic.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\12.NullValuesAritmethic\bin\Debug\12.NullValuesAritmethic.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\12.NullValuesAritmethic\bin\Debug\12.NullValuesAritmethic.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\12.NullValuesAritmethic\obj\Debug\12.NullValuesAritmethic.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\12.NullValuesAritmethic\obj\Debug\12.NullValuesAritmethic.pdb

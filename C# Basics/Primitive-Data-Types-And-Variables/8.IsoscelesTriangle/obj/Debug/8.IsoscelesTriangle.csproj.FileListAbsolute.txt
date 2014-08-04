@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\8.IsoscelesTriangle\bin\Debug\8.IsoscelesTriangle.exe.config
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\8.IsoscelesTriangle\bin\Debug\8.IsoscelesTriangle.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\8.IsoscelesTriangle\bin\Debug\8.IsoscelesTriangle.pdb
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\8.IsoscelesTriangle\obj\Debug\8.IsoscelesTriangle.exe
+B:\S\SoftUni\trunk\C# Basics\Primitive-Data-Types-And-Variables\8.IsoscelesTriangle\obj\Debug\8.IsoscelesTriangle.pdb

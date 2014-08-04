@@ -1,0 +1,5 @@
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\6.HorribleCode\bin\Debug\6.HorribleCode.exe.config
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\6.HorribleCode\bin\Debug\6.HorribleCode.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\6.HorribleCode\bin\Debug\6.HorribleCode.pdb
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\6.HorribleCode\obj\Debug\6.HorribleCode.exe
+B:\S\SoftUni\trunk\C# Basics\Intro-Programming-Homework\6.HorribleCode\obj\Debug\6.HorribleCode.pdb
