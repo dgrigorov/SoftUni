@@ -15,13 +15,13 @@
 
 |     | Programming                  | Web Design                                          | Other
 | --- | ---------------------------- | -----------------------------------------------     |-----------------------------
-| 1.  | [C# Basics](#c#-basics)       | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#teamwork-and-personal-skills) 
+| 1.  | [C# Basics](#csharp-basics)       | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#teamwork-and-personal-skills) 
 | 2.  | PHP Basics (expected)        | JavaScript Basics (expected)                        | 
 
 
 <hr />
 
-## C# Basics
+## CSharp Basics
 1. [Introduction to Programming](https://github.com/dgrigorov/SoftUni/tree/master/C%23%20Basics/Intro-Programming-Homework) - 04.03.2014
 2. [Primitive Data Types and Variables](https://github.com/dgrigorov/SoftUni/tree/master/C%23%20Basics/Primitive-Data-Types-And-Variables) - 10.03.2014
 
