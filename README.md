@@ -6,14 +6,14 @@
 
 <em>Author:</em> Daniel Grigorov<br/>
 <em>Created:</em> 10/06/2020<br/>
-<em>Version:</em> 1.0.0< </p>
+<em>Version:</em> 1.0.0 </p>
 
 <hr />
 
 
-## CSharp Basics
-1. [Introduction to Programming](https://github.com/dgrigorov/SoftUni/tree/master/C%23%20Basics/Intro-Programming-Homework) - 04.03.2014
-2. [Primitive Data Types and Variables](https://github.com/dgrigorov/SoftUni/tree/master/C%23%20Basics/Primitive-Data-Types-And-Variables) - 10.03.2014
+## Programming Basics with JavaScript
+1. [First Steps Into Programming with JS](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/First-Steps-Into-Programming) - 03.10.2020
+2. [First Steps Into Programming with JS Exercise](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/First-Step-Into-Programming-Exercise) - 04.10.2020
 
 
 
