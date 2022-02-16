@@ -16,7 +16,7 @@
 |     | Programming                  | Web Design                                               | Other
 | --- | ---------------------------- | ---------------------------------------------------------|-----------------------------
 | 1.  | [C# Basics](#csharp-basics)  | [Web Fundamentals](#web-fundamentals)                    | [Teamwork and personal skills](#teamwork-and-personal-skills) 
-| 2.  | PHP Basics (expected)        | JavaScript Basics (#programming-basics-with-javascript)  | 
+| 2.  | PHP Basics (expected)        | [JavaScript Basics](#programming-basics-with-javascript)  | 
 
 
 <hr />
