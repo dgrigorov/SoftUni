@@ -13,13 +13,26 @@
 
 <h2>Table of Contents</h2>
 
-|     | Programming                  | Web Design                                          | Other
-| --- | ---------------------------- | -----------------------------------------------     |-----------------------------
-| 1.  | [C# Basics](#csharp-basics)       | [Web Fundamentals](#web-fundamentals)               | [Teamwork and personal skills](#teamwork-and-personal-skills) 
-| 2.  | PHP Basics (expected)        | JavaScript Basics (expected)                        | 
+|     | Programming                  | Web Design                                               | Other
+| --- | ---------------------------- | ---------------------------------------------------------|-----------------------------
+| 1.  | [C# Basics](#csharp-basics)  | [Web Fundamentals](#web-fundamentals)                    | [Teamwork and personal skills](#teamwork-and-personal-skills) 
+| 2.  | PHP Basics (expected)        | JavaScript Basics (#programming-basics-with-javascript)  | 
 
 
 <hr />
+
+
+## Programming Basics with JavaScript
+1. [First Steps Into Programming with JS Lab](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/01.First-Steps-Into-Programming-Lab) - 03.10.2020
+2. [First Steps Into Programming with JS Exercise](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/First-Step-Into-Programming-Exercise) - 04.10.2020
+3. [Conditional Statements Lab](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/03.Conditional-Statements-Lab) - 10.10.2020
+4. [Conditional Statements Exercise](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/04.Conditional-Statements-Exercise) - 11.10.2020
+5. [Advanced Conditional Statements Lab](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/05.Conditional-Statements-Advanced-Lab) - 17.10.2020
+6. [Advanced Conditional Statements Exercise](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/06.Conditional-Statements-Advanced-Exercise) - 18.10.2020
+7. [For Loop Lab](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/07.For-Loop-Lab) - 24.10.2020
+8. [For Loop Exercise](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/08.For-Loop-Exercise) - 25.10.2020
+9. [While Loop Lab](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/09.While-Loop-Lab) - 31.10.2020
+11. [Exam](https://github.com/dgrigorov/ProgrammingBasicsWithJavaScript-SoftUni/tree/main/13.Online-Exam) - 22.11.2020
 
 ## CSharp Basics
 1. [Introduction to Programming](https://github.com/dgrigorov/SoftUni/tree/master/C%23%20Basics/Intro-Programming-Homework) - 04.03.2014
